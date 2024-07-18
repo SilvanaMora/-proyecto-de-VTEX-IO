@@ -1,7 +1,10 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "flex-layout.row#text__one--home",
+      "list-context.image-list#demo",
+      "slider-layout#text-test",
+      "flex-layout.row#test__one-slider-home"
     ]
   }
 }

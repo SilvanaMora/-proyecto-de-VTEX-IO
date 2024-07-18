@@ -1,4 +1,26 @@
-{ "rich-text": { 
+{ 
+  "flex-layout.row#text__one--home":{
+    "title": "Text row one home",
+    "children":[
+      "flex-layout.col#text__one--home",
+      "flex-layout.col#text__two--home"
+    ],
+    "props": {}
+  },
+  "flex-layout.col#text__one--home":{
+    "title": "Text col one home",
+    "children": [
+      "rich-text"
+    ]
+  },
+  "flex-layout.col#text__two--home":{
+    "title": "Text col one home",
+    "children": [
+      "rich-text"
+    ]
+  },
+
+  "rich-text": { 
     "props": { 
       "text": "Funciona linkeado ",
       "textAlignment": "CENTER",
