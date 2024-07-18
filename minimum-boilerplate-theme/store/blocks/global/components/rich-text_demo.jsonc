@@ -1,0 +1,9 @@
+{ "rich-text": { 
+    "props": { 
+      "text": "Funciona linkeado ",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}
