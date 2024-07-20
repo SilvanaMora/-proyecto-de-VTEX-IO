@@ -1,0 +1,6 @@
+{
+  "responsive-layout.desktop#home__image-complet": {
+    "title": "Home desktop image watch complet",
+    "children": ["list-context.image-list#home-desktop"]
+  }
+}

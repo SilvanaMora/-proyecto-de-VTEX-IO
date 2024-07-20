@@ -1,0 +1,7 @@
+{
+    "responsive-layout.phone#home__image-one-part": {
+      "title": "Home phone image watch one part",
+      "children": ["list-context.image-list#home-phone"]
+    }
+  }
+  
