@@ -1,12 +1,10 @@
 {
   "store.home": { 
     "blocks": [
-      //"flex-layout.row#text__one--home",
       "responsive-layout.desktop#home__image-complet",
       "responsive-layout.phone#home__image-one-part"
-      //"list-context.image-list#home-phone",
-      //slider-layout#text-test",
-      //flex-layout.row#test__one-slider-home"
+      //"slider-layout#text-test"
+     // "flex-layout.row#test__one-slider-home"
     ]
   }
 }
