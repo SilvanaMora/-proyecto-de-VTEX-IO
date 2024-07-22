@@ -1,5 +1,0 @@
-{
-    "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  }
-}

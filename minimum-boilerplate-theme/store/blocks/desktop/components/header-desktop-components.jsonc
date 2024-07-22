@@ -1,13 +1,15 @@
 {
-     "sticky-layout#desktop": {
+  "sticky-layout#desktop": {
     "props": {
       "blockClass": "sticky-header"
     },
     "children": [
       "flex-layout.row#desktop",
-      "flex-layout.row#header-bar-desktop"]
-     },
-   "flex-layout.row#desktop": {
+      "flex-layout.row#header-bar-desktop-options",
+      "flex-layout.row#header-bar-desktop"
+    ]
+  },
+  "flex-layout.row#desktop": {
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -23,34 +25,111 @@
       "login",
       "minicart.v2"
     ]
-},
-  
-"flex-layout.col#logo-desktop": {
-  "props": {
-    "verticalAlign": "middle"
   },
-  "children": ["logo"]
-},
-"flex-layout.row#header-bar-desktop": {
-  "title": "Header Bar",
-  "children": [
-    "flex-layout.col#col-1-food",
-    "flex-layout.col#col-2-fitness",
-    "flex-layout.col#col-3-artic",
-    "flex-layout.col#col-4-poolday",
-    "flex-layout.col#col-5-hotel",
-    "flex-layout.col#col-6-house",
-    "flex-layout.col#col-7-nature",
-    "flex-layout.col#col-8-closet",
-    "flex-layout.col#col-9-beach",
-    "flex-layout.col#col-10-mountaineering",
-    "flex-layout.col#col-11-delivery",
-    "flex-layout.col#col-12-beer"
-  ],
-  "props": {
-    "blockClass": "header-bar"
-  }
-},
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "flex-layout.row#header-bar-desktop-options": {
+    "title": "Header Bar Options",
+    "children": [
+      "flex-layout.col#col-1-tendencias-it-globers",
+      "flex-layout.col#col-2-coleccion-del-mes",
+      "flex-layout.col#col-3-ofertas-enero",
+      "flex-layout.col#col-4-cyber-monday",
+      "flex-layout.col#col-5-never-say-never"
+    ],
+    "props": {
+      "blockClass": "class-header-bar-desktop-options"
+    }
+  },
+  "flex-layout.col#col-1-tendencias-it-globers": {
+    "children": [
+      "rich-text#col-1-tendencias-it-globers"
+    ],
+    "props": {
+      "width": "8.33%"
+    }
+  },
+  "flex-layout.col#col-2-coleccion-del-mes": {
+    "children": [
+      "rich-text#col-2-coleccion-del-mes"
+    ],
+    "props": {
+      "width": "8.33%"
+    }
+  },
+  "flex-layout.col#col-3-ofertas-enero": {
+    "children": [
+      "rich-text#col-3-ofertas-enero"
+    ],
+    "props": {
+      "width": "8.33%"
+    }
+  },
+  "flex-layout.col#col-4-cyber-monday": {
+    "children": [
+      "rich-text#col-4-cyber-monday"
+    ],
+    "props": {
+      "width": "8.33%"
+    }
+  },
+  "flex-layout.col#col-5-never-say-never": {
+    "children": [
+      "rich-text#col-5-never-say-never"
+    ],
+    "props": {
+      "width": "8.33%"
+    }
+  },
+  "rich-text#col-1-tendencias-it-globers": {
+    "props": {
+      "text": "Tendencias de ITGlobers"
+    }
+  },
+  "rich-text#col-2-coleccion-del-mes": {
+    "props": {
+      "text": "Colección del mes"
+    }
+  },
+  "rich-text#col-3-ofertas-enero": {
+    "props": {
+      "text": "Ofertas enero"
+    }
+  },
+  "rich-text#col-4-cyber-monday": {
+    "props": {
+      "text": "Cyber Monday"
+    }
+  },
+  "rich-text#col-5-never-say-never": {
+    "props": {
+      "text": "Never say never"
+    }
+  },
+  "flex-layout.row#header-bar-desktop": {
+    "title": "Header Bar",
+    "children": [
+      "flex-layout.col#col-1-food",
+      "flex-layout.col#col-2-fitness",
+      "flex-layout.col#col-3-artic",
+      "flex-layout.col#col-4-poolday",
+      "flex-layout.col#col-5-hotel",
+      "flex-layout.col#col-6-house",
+      "flex-layout.col#col-7-nature",
+      "flex-layout.col#col-8-closet",
+      "flex-layout.col#col-9-beach",
+      "flex-layout.col#col-10-mountaineering",
+      "flex-layout.col#col-11-delivery",
+      "flex-layout.col#col-12-beer"
+    ],
+    "props": {
+      "blockClass": "header-bar-desktop"
+    }
+  },
 "flex-layout.col#col-1-food": {
   "children": [
     "image#col-1-image-food",
@@ -293,3 +372,4 @@
   }
 }
 }
+
