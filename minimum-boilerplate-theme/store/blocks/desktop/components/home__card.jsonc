@@ -1,0 +1,67 @@
+{
+    "slider-layout#text-test": {
+      "title": "Slider home image full",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel"
+      },
+      "children": [
+        "flex-layout.row#main-row",
+        "flex-layout.row#main-row",
+        "flex-layout.row#main-row",
+        "flex-layout.row#main-row",
+        "flex-layout.row#main-row",
+        "flex-layout.row#main-row"
+      ]
+    },
+  
+    "flex-layout.row#main-row": {
+      "title": "Main Row",
+      "children": [
+        "flex-layout.col#col-1"
+      ]
+    },
+  
+    "flex-layout.col#col-1": {
+      "title": "Column 1",
+      "children": [
+        "image#col-1-image",
+        "rich-text#text-section",
+        "image#image-section"
+      ],
+      
+      "props": {
+      }
+    },
+    "image#col-1-image": {
+      "title": "Image 1",
+      "props": {
+        "src": "/arquivos/image-heading.png",
+        "alt": "Image 1"
+      }
+    },
+  
+    "rich-text#text-section": {
+      "title": "Text Section",
+      "props": {
+        "text": "Heading Builder platform is made by, buildership platfomr is made by…"
+      }
+    },
+  
+    "image#image-section": {
+      "title": "Side Image",
+      "props": {
+        "src": "/arquivos/image-gold.png",
+        "alt": "Side Image"
+      }
+    }
+  }
+   
+    
+  
