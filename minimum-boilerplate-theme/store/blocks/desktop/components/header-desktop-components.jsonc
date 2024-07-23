@@ -240,7 +240,7 @@
 },
 "image#col-1-image-food": {
   "props": {
-    "src": "/arquive/foo.png",
+    "src": "/arquivos/food.png",
     "alt": "Food"
   }
 },
@@ -251,7 +251,7 @@
 },
 "image#col-2-image-fitness": {
   "props": {
-    "src": "/arquive/fitness.png",
+    "src": "/arquivos/fitness.png",
     "alt": "Fitness"
   }
 },
@@ -262,7 +262,7 @@
 },
 "image#col-3-image-artic": {
   "props": {
-    "src": "/arquive/artico.png",
+    "src": "/arquivos/artico.png",
     "alt": "En el Ártico"
   }
 },
