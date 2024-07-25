@@ -1,7 +1,9 @@
 {
-  "list-context.image-list#phone-home": {
-    "title": "Phone Image watch ",
-    "children": ["slider-layout#phome-home-image-watch"],
+  "list-context.image-list#desktop__home--image": {
+    "title": "Desktop image watch full",
+    "children": [ 
+      "slider-layout#desktop-home-image"
+    ],
     "props": {
       "preload": true,
       "width": "1280px",
@@ -11,7 +13,7 @@
       "images": [
         {
           "loading": "eager",
-          "src": "/arquivos/home-mobile.png",
+          "src": "/arquivos/home-completo.png",
           "description": "something something",
           "link": {
             "url": "#"
@@ -21,8 +23,8 @@
     }
   },
 
-  "slider-layout#phome-home-image-watch": {
-    "title": "Slider home phone",
+  "slider-layout#desktop-home-image": {
+    "title": "Desktop slider home watch full ",
     "props": {
       "itemsPerPage": {
         "desktop": 5,

@@ -1,0 +1,67 @@
+{
+  "slider-layout#tablet__home-card": {
+      "title": "Tablet slider home image full  ",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 3,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "tabletOnly",
+        "blockClass": "carousel"
+      },
+      "children": [
+        "flex-layout.row#tablet-card",
+        "flex-layout.row#tablet-card",
+        "flex-layout.row#tablet-card",
+        "flex-layout.row#tablet-card",
+        "flex-layout.row#tablet-card",
+        "flex-layout.row#tablet-card"
+      ]
+    },
+  
+    "flex-layout.row#tablet-card": {
+      "title": "Tablet home card",
+      "children": [
+        "flex-layout.col#tablet-col-1-card"
+      ]
+    },
+  
+    "flex-layout.col#tablet-col-1-card": {
+      "title": "Tablet column card",
+      "children": [
+        "image#tablet-image-main",
+        "rich-text#tablet-text-card",
+        "image#tablet-image-second"
+      ],
+      
+      "props": {
+      }
+    },
+    "image#tablet-image-main": {
+      "title": "Tablet image main",
+      "props": {
+        "src": "/arquivos/image-heading.png",
+        "alt": "Image 1"
+      }
+    },
+  
+    "rich-text#tablet-text-card": {
+      "title": "Tablet text card",
+      "props": {
+        "text": "Heading Builder platform is made by, buildership platfomr is made by…"
+      }
+    },
+  
+    "image#tablet-image-second": {
+      "title": "tablet image second ",
+      "props": {
+        "src": "/arquivos/image-gold.png",
+        "alt": "Side Image"
+      }
+    }
+  }
+   
+    
+  

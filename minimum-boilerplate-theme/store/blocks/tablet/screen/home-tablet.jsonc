@@ -1,0 +1,10 @@
+{
+  "responsive-layout.tablet#tablet__home": {
+    "title": "Home tablet",
+    "children": [
+      "list-context.image-list#tablet__home--image",
+      "rich-text#text-next-watch",
+      "slider-layout#tablet__home-card"
+    ]
+  }
+}

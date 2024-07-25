@@ -1,0 +1,78 @@
+{
+    "slider-layout#desktop__home-card": {
+      "title": "Desktop slider home card",
+      "props": {
+        "itemsPerPage": {
+          "desktop": 4,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "carousel"
+      },
+      "children": [
+        "flex-layout.row#desktop-card",
+        "flex-layout.row#desktop-card",
+        "flex-layout.row#desktop-card",
+        "flex-layout.row#desktop-card",
+        "flex-layout.row#desktop-card",
+        "flex-layout.row#desktop-card"
+      ]
+    },
+  
+    "flex-layout.row#desktop-card": {
+      "title": "Desktop Main Card",
+      "children": [
+        "flex-layout.col#desktop-card-col-1"
+      ]
+    },
+  
+    "flex-layout.col#desktop-card-col-1": {
+      "title": "Desktop Column card",
+      "children": [
+        "image#desktop-image-main",
+        "rich-text#desktop-text-card",
+        "image#desktop-image-second-gold",
+        "rich-text#desktop-button-card"
+      ],
+      
+      "props": {
+      }
+    },
+    "image#desktop-image-main": {
+      "title": "Desktop image main card",
+      "props": {
+        "src": "/arquivos/image-heading.png",
+        "alt": "Image 1"
+      }
+    },
+  
+    "rich-text#desktop-text-card": {
+      "title": "Desktop text card",
+      "props": {
+        "text": "Heading Builder platform is made by, buildership platfomr is made by…"
+      }
+    },
+  
+    "image#desktop-image-second-gold": {
+      "title": "desktop-image-second-gold",
+      "props": {
+        "src": "/arquivos/image-gold.png",
+        "alt": "Side Image"
+      }
+    },
+    "rich-text#desktop-button-card": {
+      "title": "Desktop button text card",
+      "props": {
+        "text": "[Ver precio](#)",
+        "blockClass": "button-card"
+      }
+} 
+}
+  
+  
+ 
+
+    
+  
