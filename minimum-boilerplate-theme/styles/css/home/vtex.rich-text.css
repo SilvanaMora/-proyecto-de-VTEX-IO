@@ -2,8 +2,10 @@
     color:aqua
 }
 
-/*estilos desktop*/
-.link--button-card{
+/*estilos desktop, phone and tablet - home button card*/
+.link--desktop__home--button-card,
+.link--phone__home--button-card,
+.link--tablet__home--button-card{
     background-color: #1a202c; 
       color: #ffffff; 
       padding: 10px 20px;
@@ -19,11 +21,15 @@
       transition: background-color 0.3s;
     }
     
-    .link--button-card::after {
+    .link--desktop__home--button-cardd::after, 
+    .link--phone__home--button-cardd::after, 
+    .link--tablet__home--button-cardd::after {
       background-color: #2d3748; 
     }
     
-    .link--button-card::after {
+    .link--desktop__home--button-card::after, 
+    .link--phone__home--button-cardd::after, 
+    .link--tablet__home--button-cardd::after {
       content: '→'; 
       margin-left: 10px;
       font-size: 20px;

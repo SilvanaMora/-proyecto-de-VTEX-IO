@@ -1,5 +1,5 @@
 {
     "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
+    "children": ["sticky-layout#mobile__header"]
 }
 }

@@ -2,9 +2,9 @@
   "responsive-layout.desktop#desktop__home": {
     "title": "Home desktop",
     "children": [
-      "list-context.image-list#desktop__home--image",
-      "rich-text#text-next-watch",
-      "slider-layout#desktop__home-card"
+      "list-context.image-list#desktop__home--image-main",
+      "rich-text#global__text-next-watch",
+      "slider-layout#desktop__home--slider-card"
     ]
   }
 }

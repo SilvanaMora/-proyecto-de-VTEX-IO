@@ -1,8 +1,9 @@
 {
-  "list-context.image-list#tablet__home--image": {
+  "list-context.image-list#tablet__home--image-watch": {
     "title": "Tablet image watch desktop full",
-    "children": ["slider-layout#tablet-image-home"],
+    "children": [ "slider-layout#tablet__home--slider-watch"],
     "props": {
+      "blockClass":"tablet__home--image-watch",
       "preload": true,
       "width": "1280px",
       "top": "168px",
@@ -21,10 +22,11 @@
     }
   },
 
-  "slider-layout#tablet-image-home": {
+  "slider-layout#tablet__home--slider-watch": {
     "title": "Slider home tablet",
     "props": {
-      "itemsPerPage": {
+      "blockClass":"tablet__home--slider-watch",
+        "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
         "phone": 1

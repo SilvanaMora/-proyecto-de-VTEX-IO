@@ -5,20 +5,20 @@
     }
   },
 
-  "image#logo-itg": {
+  "image#global__logo-itg": {
     "props": {
       "src": "/arquivos/icono-itg.svg",
       "alt": "something something",
       "title": "Logo ITG",
-      "blockClass": "logo-itg"
+      "blockClass": "global__logo-itg"
     }
   },
-  "image#menu-icon": {
+  "image#global__menu-icon": {
     "props": {
       "src": "/arquivos/hamburguer-menu.png",
       "alt": "something something",
       "title": "Menu icon ",
-      "blockClass": "menu-icon"
+      "blockClass": "global__menu-icon"
     }
   }
 

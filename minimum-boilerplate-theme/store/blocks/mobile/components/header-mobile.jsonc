@@ -1,170 +1,172 @@
 {
-    "sticky-layout#mobile": {
+  "sticky-layout#mobile__header": {
+      "props": {
+        "blockClass": "mobile__header"
+      },
     "children": [
-      "flex-layout.row#phone",
-      "flex-layout.row#phone-header-bar"
+      "flex-layout.row#mobile__header--main",
+      "flex-layout.row#mobile__header-bar-options2"
     ]
+   
   },
-  "flex-layout.row#phone": {
+  "flex-layout.row#mobile__header--main": {
     "children": [
       "flex-layout.col#spacer",
-      "flex-layout.col#phone-menu-icon",
-      "flex-layout.col#phone-logo",
+      "flex-layout.col#mobile__menu-icon",
+      "flex-layout.col#mobile__logo",
       "flex-layout.col#spacer",
       "search-bar",
       "minicart.v2",
       "login"
     ],
     "props": {
-      "blockClass": "main-header-phone",
+      "blockClass": "mobile__header--main",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
     }
   },
-  "flex-layout.col#phone-logo": {
+  "flex-layout.col#mobile__logo": {
     "props": {
       "verticalAlign": "middle",
       "padding": "10px 0"
 },
-    "children": ["image#logo-itg"] 
+    "children": ["image#global__logo-itg"] 
 },
-"flex-layout.col#phone-menu-icon": {
+"flex-layout.col#mobile__menu-icon": {
   "props": {
     "verticalAlign": "middle",
     "padding": "10px 0"
 },
-  "children": [ "image#menu-icon"]
+  "children": [ "image#global__menu-icon"]
   },
-    "flex-layout.row#phone-header-bar": {
-      "title": "Header Bar",
-      "children": [
-        "flex-layout.col#phone-col-1-food",
-        "flex-layout.col#phone-col-2-fitness",
-        "flex-layout.col#phone-col-3-artic",
-        "flex-layout.col#phone-col-4-poolday",
-        "flex-layout.col#phone-col-5-hotel"
-      ],
-      "props": {
-        "blockClass": "header-bar",
-        "alignItems": "center",  
-        "justifyContent": "space-between",
-        "padding": "0 10px"
-      }
-    },
-    "flex-layout.col#phone-col-1-food": {
-      "children": [
-        "image#phone-col-1-image-food",
-        "rich-text#phone-col-1-text-food"
-      ],
-      "props": {
-        "blockClass":"phone-col-food",
-        "paddingRight": "10px"
-      }
-    },
-    "flex-layout.col#phone-col-2-fitness": {
-      "children": [
-        "image#phone-col-2-image-fitness",
-        "rich-text#phone-col-2-text-fitness"
-      ],
-      "props": {
-        "blockClass":"phone-col-fitness",
-        "paddingRight": "10px"
-      }
-    },
-    "flex-layout.col#phone-col-3-artic": {
-      "children": [
-        "image#phone-col-3-image-artic",
-        "rich-text#phone-col-3-text-artic"
-      ],
-      "props": {
-        "blockClass":"phone-col-artic",
-        "paddingRight": "10px"
-      }
-    },
-    "flex-layout.col#phone-col-4-poolday": {
-      "children": [
-        "image#phone-col-4-image-poolday",
-        "rich-text#phone-col-4-text-poolday"
-      ],
-      "props": {
-        "blockClass":"phone-col-poolday",
-        "paddingRight": "10px"
-      }
-    },
-    "flex-layout.col#phone-col-5-hotel": {
-      "children": [
-        "image#phone-col-5-image-hotel",
-        "rich-text#phone-col-5-text-hotel"
-      ],
-      "props": {
-        "blockClass":"phone-col-hotel"
-      }
-    },
-    "image#phone-col-1-image-food": {
-      "props": {
-        "src": "/arquivos/food.png",
-        "alt": "Food",
-        "blockClass": "image-icon"
-      }
-    },
-    "rich-text#phone-col-1-text-food": {
-      "props": {
-        "text": "Food",
-        "blockClass": "text-icon"
-      }
-    },
-    "image#phone-col-2-image-fitness": {
-      "props": {
-        "src": "/arquivos/fitness.png",
-        "alt": "Fitness",
-        "blockClass": "image-icon"
-      }
-    },
-    "rich-text#phone-col-2-text-fitness": {
-      "props": {
-        "text": "Fitness",
-        "blockClass": "text-icon"
-      }
-    },
-    "image#phone-col-3-image-artic": {
-      "props": {
-        "src": "/arquivos/artico.png",
-        "alt": "En el Ártico",
-        "blockClass": "image-icon"
-      }
-    },
-    "rich-text#phone-col-3-text-artic": {
-      "props": {
-        "text": "En el Ártico",
-        "blockClass": "text-icon"
-      }
-    },
-    "image#phone-col-4-image-poolday": {
-      "props": {
-        "src": "/arquivos/poolday.png",
-        "alt": "Poolday",
-        "blockClass": "image-icon"
-      }
-    },
-    "rich-text#phone-col-4-text-poolday": {
-      "props": {
-        "text": "Poolday",
-        "blockClass": "text-icon"
-      }
-    },
-    "image#phone-col-5-image-hotel": {
-      "props": {
-        "src": "/arquivos/hotel.png",
-        "alt": "Hoteles",
-        "blockClass": "image-icon"
-      }
-    },
-    "rich-text#phone-col-5-text-hotel": {
-      "props": {
-        "text": "Hoteles",
-        "blockClass": "text-icon"
-      }
+  "flex-layout.row#mobile__header-bar-options2": {
+    "title": "Header Bar",
+    "children": [
+      "flex-layout.col#mobile__header--col-1-food",
+      "flex-layout.col#mobile__header--col-2-fitness",
+      "flex-layout.col#mobile__header--col-3-artic",
+      "flex-layout.col#mobile__header--col-4-poolday",
+      "flex-layout.col#mobile__header--col-5-hotel"
+    ],
+    "props": {
+      "blockClass": "mobile__header-bar-options2"
     }
+  },
+"flex-layout.col#mobile__header--col-1-food": {
+  "children": [
+    "image#mobile__header--col-1-image-food",
+    "rich-text#mobile__header--col-1-text-food"
+  ],
+  "props": {
+    "width": "8.33%",
+    "blockClass": "mobile__header--col-bar-options2" 
   }
+},
+"flex-layout.col#mobile__header--col-2-fitness": {
+  "children": [
+    "image#mobile__header--col-2-image-fitness",
+    "rich-text#mobile__header--col-2-text-fitness"
+  ],
+  "props": {
+    "width": "8.33%",
+    "blockClass": "mobile__header--col-bar-options2" 
+  }
+},
+"flex-layout.col#mobile__header--col-3-artic": {
+  "children": [
+    "image#mobile__header--col-3-image-artic",
+    "rich-text#mobile__header--col-3-text-artic"
+  ],
+  "props": {
+    "width": "8.33%",
+    "blockClass": "mobile__header--col-bar-options2" 
+  }
+},
+"flex-layout.col#mobile__header--col-4-poolday": {
+  "children": [
+    "image#mobile__header--col-4-image-poolday",
+    "rich-text#mobile__header--col-4-text-poolday"
+  ],
+  "props": {
+    "width": "8.33%",
+    "blockClass": "mobile__header--col-bar-options2" 
+  }
+},
+"flex-layout.col#mobile__header--col-5-hotel": {
+  "children": [
+    "image#mobile__header--col-5-image-hotel",
+    "rich-text#mobile__header--col-5-text-hotel"
+  ],
+  "props": {
+    "width": "8.33%",
+    "blockClass": "mobile__header--col-bar-options2" 
+  }
+},
+"image#mobile__header--col-1-image-food": {
+  "props": {
+    "src": "/arquivos/food.png",
+    "alt": "Food",
+    "blockClass":"mobile__header--col-image"
+  }
+},
+"rich-text#mobile__header--col-1-text-food": {
+  "props": {
+    "text": "Food",
+    "blockClass":"mobile__header--col-image"
+  }
+},
+"image#mobile__header--col-2-image-fitness": {
+  "props": {
+    "src": "/arquivos/fitness.png",
+    "alt": "Fitness",
+    "blockClass":"mobile__header--col-image"
+  }
+},
+"rich-text#mobile__header--col-2-text-fitness": {
+  "props": {
+    "text": "Fitness",
+    "blockClass":"mobile__header--col-text"
+  }
+},
+"image#mobile__header--col-3-image-artic": {
+  "props": {
+    "src": "/arquivos/artico.png",
+    "alt": "En el Ártico",
+    "blockClass":"mobile__header--col-image"
+  }
+},
+"rich-text#mobile__header--col-3-text-artic": {
+  "props": {
+    "text": "En el Ártico",
+    "blockClass":"mobile__header--col-text"
+  }
+},
+"image#mobile__header--col-4-image-poolday": {
+  "props": {
+    "src": "/arquivos/poolday.png",
+    "alt": "Poolday",
+    "blockClass":"mobile__header--col-image"
+  }
+},
+"rich-text#mobile__header--col-4-text-poolday": {
+  "props": {
+    "text": "Poolday",
+    "blockClass":"mobile__header--col-text"
+  }
+},
+"image#mobile__header--col-5-image-hotel": {
+  "props": {
+    "src": "/arquivos/hotel.png",
+    "alt": "Hoteles",
+    "blockClass":"mobile__header--col-image"
+  }
+},
+"rich-text#mobile__header--col-5-text-hotel": {
+  "props": {
+    "text": "Hoteles",
+    "blockClass":"mobile__header--col-text"
+  }
+}
+}
   

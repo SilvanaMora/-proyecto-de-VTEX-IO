@@ -1,6 +1,5 @@
-{
-    "slider-layout#desktop__home-card": {
-      "title": "Desktop slider home card",
+{ "slider-layout#desktop__home--slider-card": {
+      "title": "Desktop home slider card",
       "props": {
         "itemsPerPage": {
           "desktop": 4,
@@ -9,64 +8,72 @@
         },
         "infinite": true,
         "showNavigationArrows": "desktopOnly",
-        "blockClass": "carousel"
+        "blockClass": "desktop__home--card"
       },
       "children": [
-        "flex-layout.row#desktop-card",
-        "flex-layout.row#desktop-card",
-        "flex-layout.row#desktop-card",
-        "flex-layout.row#desktop-card",
-        "flex-layout.row#desktop-card",
-        "flex-layout.row#desktop-card"
+        "flex-layout.row#desktop__home--row-card",
+        "flex-layout.row#desktop__home--row-card",
+        "flex-layout.row#desktop__home--row-card",
+        "flex-layout.row#desktop__home--row-card",
+        "flex-layout.row#desktop__home--row-card",
+        "flex-layout.row#desktop__home--row-card"
       ]
     },
   
-    "flex-layout.row#desktop-card": {
+    "flex-layout.row#desktop__home--row-card": {
       "title": "Desktop Main Card",
       "children": [
-        "flex-layout.col#desktop-card-col-1"
-      ]
+        "flex-layout.col#desktop__home--card-col-1"
+      ],
+      "props": {
+        "blockClass": "desktop__home--row-card"
+      }
     },
   
-    "flex-layout.col#desktop-card-col-1": {
+    "flex-layout.col#desktop__home--card-col-1": {
       "title": "Desktop Column card",
       "children": [
-        "image#desktop-image-main",
-        "rich-text#desktop-text-card",
-        "image#desktop-image-second-gold",
-        "rich-text#desktop-button-card"
+        "image#desktop__home--image-main-card",
+        "rich-text#desktop__home--text-card",
+        "image#desktop__home--image-second-gold",
+        "rich-text#desktop__home--button-card"
       ],
       
       "props": {
+        "blockClass":"desktop__home--card-col-1"
       }
     },
-    "image#desktop-image-main": {
+    "image#desktop__home--image-main-card": {
       "title": "Desktop image main card",
       "props": {
         "src": "/arquivos/image-heading.png",
-        "alt": "Image 1"
+        "alt": "Image 1",
+        "blockClass":"desktop__home--image-main-card"
       }
     },
   
-    "rich-text#desktop-text-card": {
+    "rich-text#desktop__home--text-card": {
       "title": "Desktop text card",
       "props": {
-        "text": "Heading Builder platform is made by, buildership platfomr is made by…"
+        "text": "Heading Builder platform is made by, buildership platfomr is made by…",
+        "blockClass":"desktop__home--text-card"
+   
       }
     },
   
-    "image#desktop-image-second-gold": {
+    "image#desktop__home--image-second-gold": {
       "title": "desktop-image-second-gold",
       "props": {
         "src": "/arquivos/image-gold.png",
-        "alt": "Side Image"
+        "alt": "Side Image",
+        "blockClass":"desktop__home--image-second-gold"
       }
     },
-    "rich-text#desktop-button-card": {
+    "rich-text#desktop__home--button-card": {
       "title": "Desktop button text card",
       "props": {
         "text": "[Ver precio](#)",
-        "blockClass": "button-card"
+        "blockClass": "desktop__home--button-card"
       }
 } 
 }

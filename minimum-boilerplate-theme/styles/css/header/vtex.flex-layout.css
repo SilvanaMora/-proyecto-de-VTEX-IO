@@ -1,69 +1,13 @@
-    /* Estilos globales para el header */
-.flexRow--header-bar {
-    background-color: white;
-    display: flex; /* Asegúrate de que esté utilizando Flexbox */
-    flex-direction: row; /* Alinea los elementos en una fila horizontal */
-    justify-content: space-between; /* Distribuye los elementos equitativamente */
-    padding: 10px; /* Añade algo de espacio alrededor */
-}
+    /* Estilos desktop y mobile  flex colheader options2 */
 
-.flexRow--header-bar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px 0;
-  }
   
-  .flexCol,
-  .phone-col-fitness,
-  .phone-col-artic,
-  .phone-col-poolday,
-  .phone-col-hotel {
+  .flexCol--desktop__header--col-bar-options2,
+  .flexCol--mobile__header--col-bar-options2
+  {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 20%; /* Ajusta el ancho según tus necesidades */
+    width: 20%;
   }
   
-  .image-icon {
-    width: 24px; /* Ajusta el tamaño del ícono según tus necesidades */
-    height: auto;
-  }
-  
-  .text-icon {
-    font-size: 12px; /* Ajusta el tamaño del texto según tus necesidades */
-  }
-  
-
-/* Estilos mobile */
-
-   /* .flexRow--header-bar {
-        flex-wrap: wrap; /* Permite que los elementos se ajusten al ancho del contenedor */
-        /*justify-content: center; /* Centra los elementos en la barra de navegación 
-    }*/
-
-  /*  .flexCol {
-        width: 18%; /* Ajusta el ancho para evitar desbordamiento 
-        text-align: center; /* Centra el texto bajo los iconos 
-    }
-}*/
-
-/* Estilos adicionales para los elementos 
-.flexRow--header-bar .nav-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 5px 0;
-}
-
-.flexRow--header-bar .nav-item img {
-    max-width: 24px; /* Ajusta el tamaño de las imágenes 
-    margin-bottom: 5px;
-}
-
-.flexRow--header-bar .nav-item span {
-    font-size: 12px; /* Ajusta el tamaño de la fuente 
-}
-*/
