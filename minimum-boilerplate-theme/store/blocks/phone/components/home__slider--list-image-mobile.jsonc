@@ -1,18 +1,14 @@
 {
   "list-context.image-list#phone__home--image-watch": {
-    "title": "Phone Image watch ",
+    "title": "phone Image watch ",
     "children": ["slider-layout#phone__home--slider-image-watch"],
     "props": {
       "blockClass":"phone-home-image-watch",
       "preload": true,
-      "width": "1280px",
-      "top": "168px",
-      "gap": "0px",
-      "opacity": "0px",
       "images": [
         {
           "loading": "eager",
-          "src": "/arquivos/home-mobile.png",
+          "src": "/arquivos/home-phone.png",
           "description": "something something",
           "link": {
             "url": "#"

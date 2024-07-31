@@ -1,0 +1,39 @@
+
+
+.imageElement--desktop__home--image-main-card
+{
+    width: 324px;
+    height: 186px;
+    gap: 0px;
+    border-radius: 10.71px 10.71px 0px 0px;
+    opacity: 0px;
+}
+
+
+
+.imageElement--mobile__home--image-main-card
+{
+    width: 242px;
+    height: 139px;
+    gap: 0px;
+    border-radius: 8px 8px 0px 0px;
+    opacity: 0px;
+
+}
+
+
+
+/*.flexColChild--desktop__home--col-card*/
+
+.flexRowContent--desktop__home--rowcard-inside2
+{
+    display: grid;
+    grid-template-columns: 80% 20%; /* Define el ancho de las columnas */
+    width: 100%; /* Asegúrate de que el contenedor ocupe el 100% del ancho disponible */
+    gap: 10px;
+}
+
+.stretchChildrenWidth  
+{
+    width: 100%;
+}

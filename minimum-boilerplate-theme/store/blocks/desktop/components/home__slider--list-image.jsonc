@@ -6,7 +6,7 @@
     ],
     "props": {
       "preload": true,
-      "width": "1280px",
+      "width": "3000px",
       "top": "168px",
       "gap": "0px",
       "opacity": "0px",

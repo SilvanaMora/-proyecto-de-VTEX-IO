@@ -1,13 +1,68 @@
     /* Estilos desktop y mobile  flex colheader options2 */
 
-  
-  .flexCol--desktop__header--col-bar-options2,
-  .flexCol--mobile__header--col-bar-options2
-  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 20%;
-  }
-  
+    /*.flexCol--desktop__header--col-bar-options2{
+      display:flex
+
+    }*/
+
+    .flexCol--desktop__header--col-bar-options2,
+    .flexCol--mobile__header--col-bar-options2
+    {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      width: 5%;
+    }
+    /*{
+      background-color: aqua;
+      gap: 4px;
+      border: 0px 0px 3px 0px;
+      opacity: 0px;
+      width: 1,136px;
+      height:  47px;
+      top: 9px;
+      left: 72px;
+      gap: 0px;
+      opacity: 0px;
+
+      
+    }*/
+    
+    
+    /*/.flexRow--desktop__header-bar-options2
+     {  
+      flex-direction: row;
+      overflow: auto;
+      justify-content: space-around; 
+      
+
+*/  
+    /*.flexRow--desktop__header-bar-options2  
+     {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      background-color: blueviolet;
+     }*/
+
+     /*.flexColChild--desktop__home--col-card
+     {
+      display: flex;
+       Define el ancho de las columnas 
+      width: 100%
+     }*/
+
+    /*.flexRow--mobile__header-bar-options2
+     {
+     display: flex;
+     flex-direction: row; 
+     justify-content: space-around; 
+     align-items: center; 
+     width: 20%;
+     overflow: auto;
+     }
+          .minicartIconContainer {
+     color: rgb(24, 106, 24) 195, 121;}*/
+
+
+    

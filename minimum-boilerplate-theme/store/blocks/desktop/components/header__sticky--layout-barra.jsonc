@@ -74,7 +74,6 @@
       "rich-text#desktop__header--text-tendencias-it-globers"
     ],
     "props": {
-      "width": "8.33%",
       "blockClass":"desktop__header--col-bar-options"
     }
   },
@@ -83,7 +82,6 @@
       "rich-text#desktop__header--text-coleccion-del-mes"
     ],
     "props": {
-      "width": "8.33%",
       "blockClass":"desktop__header--col-bar-options"
     }
   },
@@ -92,7 +90,6 @@
       "rich-text#desktop__header--text-ofertas-enero"
     ],
     "props": {
-      "width": "8.33%",
       "blockClass":"desktop__header--col-bar-options"
     }
   },
@@ -101,7 +98,6 @@
       "rich-text#desktop__header--text-cyber-monday"
     ],
     "props": {
-      "width": "8.33%",
       "blockClass":"desktop__header--col-bar-options"
     }
   },
@@ -110,7 +106,6 @@
       "rich-text#desktop__header--text-never-say-never"
     ],
     "props": {
-      "width": "8.33%",
       "blockClass":"desktop__header--col-bar-options"
     }
   },
@@ -166,7 +161,6 @@
     "rich-text#desktop__header--col-1-text-food"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -176,7 +170,6 @@
     "rich-text#desktop__header--col-2-text-fitness"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -186,7 +179,6 @@
     "rich-text#desktop__header--col-3-text-artic"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -196,7 +188,6 @@
     "rich-text#desktop__header--col-4-text-poolday"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -206,7 +197,6 @@
     "rich-text#desktop__header--col-5-text-hotel"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -216,7 +206,6 @@
     "rich-text#desktop__header--col-6-text-house"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -226,7 +215,6 @@
     "rich-text#desktop__header--col-7-text-nature"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -236,7 +224,6 @@
     "rich-text#desktop__header--col-8-text-closet"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -246,7 +233,6 @@
     "rich-text#desktop__header--col-9-text-beach"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -256,7 +242,6 @@
     "rich-text#desktop__header--col-10-text-mountaineering"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -266,7 +251,6 @@
     "rich-text#desktop__header--col-11-text-delivery"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },
@@ -276,7 +260,6 @@
     "rich-text#desktop__header--col-12-text-beer"
   ],
   "props": {
-    "width": "8.33%",
     "blockClass": "desktop__header--col-bar-options2" 
   }
 },

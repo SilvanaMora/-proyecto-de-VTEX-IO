@@ -2,9 +2,9 @@
     "responsive-layout.phone#phone__home": {
       "title": "Phone home image watch one part",
       "children": [ 
-      "list-context.image-list#phone__home--image-watch",
       "rich-text#global__text-next-watch",
-      "slider-layout#phone__home-card"]
+      "list-context.image-list#phone__home--image-watch"
+     ]
     }
   }
   
