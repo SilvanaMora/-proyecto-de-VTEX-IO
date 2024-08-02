@@ -29,7 +29,7 @@
     "props": {
       "blockClass":"tablet__home--slider-image-watch",
       "itemsPerPage": {
-        "tablet": 5,
+        "desktop": 5,
         "tablet": 3,
         "phone": 1
       },

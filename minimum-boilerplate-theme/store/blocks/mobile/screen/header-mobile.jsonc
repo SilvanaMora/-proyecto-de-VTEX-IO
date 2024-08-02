@@ -1,5 +1,9 @@
 {
     "header-layout.mobile": {
-    "children": ["sticky-layout#mobile__header"]
+    "children": [
+        "sticky-layout#mobile__header",
+        "vtex.menu@2.x:menu#global__header--menu-item"
+       
+    ]
 }
 }

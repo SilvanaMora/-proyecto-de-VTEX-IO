@@ -4,8 +4,8 @@
         "blockClass": "mobile__header"
       },
     "children": [
-      "flex-layout.row#mobile__header--main",
-      "flex-layout.row#mobile__header-bar-options2"
+      "flex-layout.row#mobile__header--main"
+     // "flex-layout.row#mobile__header-bar-options2"
     ]
    
   },
@@ -39,8 +39,13 @@
     "padding": "10px 0"
 },
   "children": [ "image#global__menu-icon"]
-  },
-  "flex-layout.row#mobile__header-bar-options2": {
+  }
+}
+
+
+
+ // vamos a reemplazar este codigo
+ /* "flex-layout.row#mobile__header-bar-options2": {
     "title": "Header Bar",
     "children": [
       "flex-layout.col#mobile__header--col-1-food",
@@ -326,6 +331,6 @@
     "text": "Cervezas",
     "blockClass":"mobile__header--col-text"
   }
-}
-}
+}*/
+
   

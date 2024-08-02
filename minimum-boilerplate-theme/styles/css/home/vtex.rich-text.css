@@ -17,7 +17,7 @@
     line-height: 18px; 
     text-align: center; 
     font-size: 14px; 
-    font-family: Montserrat; 
+    
 }
 
 /* Estilos desktop */
@@ -55,17 +55,3 @@
   justify-content: center;
 }
 
-/*Estilos texto dentro del card
-.paragraph--desktop__home--text-card
-{
-  font-size: 1em;
-  color: #333;
-  margin-bottom: 16px;
-
-}
-
-.paragraph--desktop__home--title-card {
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-bottom: 8px;
-}*/

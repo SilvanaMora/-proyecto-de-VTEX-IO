@@ -4,8 +4,8 @@
       "blockClass": "desktop__header"
     },
     "children": [
-      "flex-layout.row#desktop__header--main",
-      "flex-layout.row#desktop__header-bar-options2"
+      "flex-layout.row#desktop__header--main"
+     // "flex-layout.row#desktop__header-bar-options2"
     ]
   },
   "flex-layout.row#desktop__header--main": {
@@ -19,18 +19,18 @@
       "blockClass": "desktop__header--main"
     },
     "children": [
-      "flex-layout.col#spacer",
+    //  "flex-layout.col#spacer",
       "flex-layout.col#desktop__menu-icon",
       "flex-layout.col#desktop__logo",
-      "flex-layout.col#spacer",
+     // "flex-layout.col#spacer",
       "search-bar",
-      "flex-layout.col#spacer",
-      "flex-layout.col#desktop__header--bar-options-col", 
-      "flex-layout.col#spacer",
+     // "flex-layout.col#spacer",
+      "flex-layout.col#desktop__header--bar", 
+      //"flex-layout.col#spacer",
      // "locale-switcher",
       "minicart.v2",
-      "login",
-      "flex-layout.col#spacer" 
+      "login"
+    //  "flex-layout.col#spacer" 
       
     ]
   },
@@ -50,13 +50,13 @@
 },
     "children": ["image#global__menu-icon"]
 },
-"flex-layout.col#desktop__header--bar-options-col":{
+"flex-layout.col#desktop__header--bar":{
   "props": {
-    "blockClass": "desktop__header--bar-options-col"
+    "blockClass": "desktop__header--bar"
   },
-  "children": ["flex-layout.row#desktop__header--bar-options-fila"]
+  "children": ["flex-layout.row#desktop__header--bar-fila"]
 },
-  "flex-layout.row#desktop__header--bar-options-fila": {
+  "flex-layout.row#desktop__header--bar-fila": {
     "title": "Header Bar Options",
     "children": [
       "flex-layout.col#desktop__header--col-1-tendencias-it-globers",
@@ -66,7 +66,7 @@
       "flex-layout.col#desktop__header--col-5-never-say-never"
     ],
     "props": {
-      "blockClass": "desktop__header--bar-options-fila"
+      "blockClass": "desktop__header--bar-fila"
     }
   },
   "flex-layout.col#desktop__header--col-1-tendencias-it-globers": {
@@ -74,7 +74,7 @@
       "rich-text#desktop__header--text-tendencias-it-globers"
     ],
     "props": {
-      "blockClass":"desktop__header--col-bar-options"
+      "blockClass":"desktop__header--col-bar1"
     }
   },
   "flex-layout.col#desktop__header--col-2-coleccion-del-mes": {
@@ -82,7 +82,7 @@
       "rich-text#desktop__header--text-coleccion-del-mes"
     ],
     "props": {
-      "blockClass":"desktop__header--col-bar-options"
+      "blockClass":"desktop__header--col-bar"
     }
   },
   "flex-layout.col#desktop__header--col-3-ofertas-enero": {
@@ -90,7 +90,7 @@
       "rich-text#desktop__header--text-ofertas-enero"
     ],
     "props": {
-      "blockClass":"desktop__header--col-bar-options"
+      "blockClass":"desktop__header--col-bar"
     }
   },
   "flex-layout.col#desktop__header--col-4-cyber-monday": {
@@ -98,7 +98,7 @@
       "rich-text#desktop__header--text-cyber-monday"
     ],
     "props": {
-      "blockClass":"desktop__header--col-bar-options"
+      "blockClass":"desktop__header--col-bar"
     }
   },
   "flex-layout.col#desktop__header--col-5-never-say-never": {
@@ -106,35 +106,42 @@
       "rich-text#desktop__header--text-never-say-never"
     ],
     "props": {
-      "blockClass":"desktop__header--col-bar-options"
+      "blockClass":"desktop__header--col-bar"
     }
   },
   "rich-text#desktop__header--text-tendencias-it-globers": {
     "props": {
-      "text": "Tendencias de ITGlobers"
+      "text": "Tendencias de ITGlobers",
+      "blockClass":"desktop__header-text"
       
     }
   },
   "rich-text#desktop__header--text-coleccion-del-mes": {
     "props": {
-      "text": "Colección del mes"
+      "text": "Colección del mes",
+      "blockClass":"desktop__header-text"
     }
   },
   "rich-text#desktop__header--text-ofertas-enero": {
     "props": {
-      "text": "Ofertas enero"
+      "text": "Ofertas enero",
+      "blockClass":"desktop__header-text"
     }
   },
   "rich-text#desktop__header--text-cyber-monday": {
     "props": {
-      "text": "Cyber Monday"
+      "text": "Cyber Monday",
+      "blockClass":"desktop__header-text"
     }
   },
   "rich-text#desktop__header--text-never-say-never": {
     "props": {
-      "text": "Never say never"
-    }
-  },
+      "text": "Never say never",
+      "blockClass":"desktop__header-text"
+  }
+}
+}
+/* vamos a reemplazar este codigo 
   "flex-layout.row#desktop__header-bar-options2": {
     "title": "Header Bar",
     "children": [
@@ -161,7 +168,7 @@
     "rich-text#desktop__header--col-1-text-food"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-2-fitness": {
@@ -170,7 +177,7 @@
     "rich-text#desktop__header--col-2-text-fitness"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-3-artic": {
@@ -179,7 +186,7 @@
     "rich-text#desktop__header--col-3-text-artic"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-4-poolday": {
@@ -188,7 +195,7 @@
     "rich-text#desktop__header--col-4-text-poolday"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-5-hotel": {
@@ -197,7 +204,7 @@
     "rich-text#desktop__header--col-5-text-hotel"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-6-house": {
@@ -206,7 +213,7 @@
     "rich-text#desktop__header--col-6-text-house"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-7-nature": {
@@ -215,7 +222,7 @@
     "rich-text#desktop__header--col-7-text-nature"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-8-closet": {
@@ -224,7 +231,7 @@
     "rich-text#desktop__header--col-8-text-closet"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-9-beach": {
@@ -233,7 +240,7 @@
     "rich-text#desktop__header--col-9-text-beach"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-10-mountaineering": {
@@ -242,7 +249,7 @@
     "rich-text#desktop__header--col-10-text-mountaineering"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-11-delivery": {
@@ -251,7 +258,7 @@
     "rich-text#desktop__header--col-11-text-delivery"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "flex-layout.col#desktop__header--col-12-beer": {
@@ -260,7 +267,7 @@
     "rich-text#desktop__header--col-12-text-beer"
   ],
   "props": {
-    "blockClass": "desktop__header--col-bar-options2" 
+    "blockClass": "desktop__header--col-bar2" 
   }
 },
 "image#desktop__header--col-1-image-food": {
@@ -419,6 +426,6 @@
     "text": "Cervezas",
     "blockClass":"desktop__header--col-text"
   }
-}
-}
+}*/
+
 

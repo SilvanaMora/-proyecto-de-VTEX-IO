@@ -8,7 +8,7 @@
       "images": [
         {
           "loading": "eager",
-          "src": "/arquivos/home-phone.png",
+          "src": "/arquivos/home-mobile.png", 
           "description": "something something",
           "link": {
             "url": "#"

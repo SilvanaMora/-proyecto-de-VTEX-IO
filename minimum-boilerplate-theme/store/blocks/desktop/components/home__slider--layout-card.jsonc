@@ -70,7 +70,8 @@
         "rich-text#desktop__home--text-card"
       ],
       "props": {
-        "blockClass": "desktop__home--col1-inside"
+        "blockClass": "desktop__home--col1-inside",
+        "width":"80%"
       }
     },
   
@@ -80,8 +81,13 @@
         "image#desktop__home--image-gold"
       ],
       "props": {
-        "blockClass": "desktop__home--col2-inside"
-      }
+        "blockClass": "desktop__home--col2-inside",
+        "width":"20%",
+        "verticalAlign": "top", 
+        "horizontalAlign": "right",  
+        "padding": "0",  
+        "margin": "0"
+  }
     },
   
     "flex-layout.row#desktop__home--rowcard-inside3": {
@@ -128,6 +134,7 @@
         "src": "/arquivos/image-gold.png",
         "alt": "Side Image",
         "blockClass":"desktop__home--image-gold"
+  
       }
     },
     "rich-text#desktop__home--button-card": {

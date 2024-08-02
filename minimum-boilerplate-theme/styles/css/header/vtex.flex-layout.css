@@ -1,68 +1,49 @@
-    /* Estilos desktop y mobile  flex colheader options2 */
+.flexCol--desktop__header--col-bar{
+   /* flex: 1 1 20% ; */
+    text-align:center;
+    white-space: nowrap;  
+    margin: 0px; 
+    padding: 0 2px 0 30px;
+    margin-right: 10px;
+}
 
-    /*.flexCol--desktop__header--col-bar-options2{
-      display:flex
 
-    }*/
 
-    .flexCol--desktop__header--col-bar-options2,
-    .flexCol--mobile__header--col-bar-options2
-    {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      width: 5%;
-    }
-    /*{
-      background-color: aqua;
-      gap: 4px;
-      border: 0px 0px 3px 0px;
-      opacity: 0px;
-      width: 1,136px;
-      height:  47px;
-      top: 9px;
-      left: 72px;
-      gap: 0px;
-      opacity: 0px;
-
-      
-    }*/
+.flexCol--desktop__header--col-bar1{
+   /* flex: 1 1 20% ; */
+    text-align: center;
+    white-space: nowrap;  
+    overflow: visible;  
+    margin: 0px; 
+    padding-right: 40px;
     
-    
-    /*/.flexRow--desktop__header-bar-options2
-     {  
-      flex-direction: row;
-      overflow: auto;
-      justify-content: space-around; 
-      
 
-*/  
-    /*.flexRow--desktop__header-bar-options2  
-     {
-      display: flex;
-      align-items: center;
-      text-align: center;
-      background-color: blueviolet;
-     }*/
+}
 
-     /*.flexColChild--desktop__home--col-card
-     {
-      display: flex;
-       Define el ancho de las columnas 
-      width: 100%
-     }*/
+.flexRow--desktop__header--bar-fila{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-wrap: nowrap; 
+}
 
-    /*.flexRow--mobile__header-bar-options2
-     {
-     display: flex;
-     flex-direction: row; 
-     justify-content: space-around; 
-     align-items: center; 
-     width: 20%;
-     overflow: auto;
-     }
-          .minicartIconContainer {
-     color: rgb(24, 106, 24) 195, 121;}*/
+/*.flexCol--desktop__header--col-bar {
+    flex: 1 1 20%;  Ajusta el ancho base de cada columna 
+    text-align: center;
+    white-space: nowrap;  Asegura que el texto no se envuelva 
+    overflow: hidden;
+    text-overflow: ellipsis; Muestra puntos suspensivos si el texto es demasiado largo 
+    margin: 0px;
+    width: auto;
+}
 
+.flexRow--desktop__header--bar-fila {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    justify-content: space-around;  Distribuye los elementos uniformemente 
+    align-items: center;
+}*/
 
-    

@@ -70,7 +70,8 @@
     "rich-text#mobile__home--text-card"
   ],
   "props": {
-    "blockClass": "mobile__home--col1-inside"
+    "blockClass": "mobile__home--col1-inside",
+    "width":"80%"
   }
 },
 
@@ -80,7 +81,12 @@
     "image#mobile__home--image-gold"
   ],
   "props": {
-    "blockClass": "mobile__home--col2-inside"
+    "blockClass": "mobile__home--col2-inside",
+    "width":"20%",
+    "verticalAlign": "top", 
+    "horizontalAlign": "right",  
+    "padding": "0",  
+    "margin": "0"
   }
 },
 
