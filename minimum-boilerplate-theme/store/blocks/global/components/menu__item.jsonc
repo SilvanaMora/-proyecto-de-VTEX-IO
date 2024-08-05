@@ -16,7 +16,7 @@
         "menu-item#beer-global"
       ],
       "props": {
-        "blockClass": "global__header--menu-item"
+        "blockClass": "global__header--menu"
       }
     },
     "menu-item#food-global": {

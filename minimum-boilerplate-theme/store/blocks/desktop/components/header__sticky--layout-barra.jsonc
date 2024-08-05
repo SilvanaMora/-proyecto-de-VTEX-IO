@@ -38,7 +38,7 @@
     "props": {
       "verticalAlign": "middle",
       "padding": "10px 0",
-      "blockClass":"flex-layout.col#desktop__logo"
+      "blockClass":"desktop__logo"
 },
     "children": ["image#global__logo-itg"]
   },
@@ -46,7 +46,7 @@
     "props": {
       "verticalAlign": "middle",
       "padding": "10px 0",
-      "blockClass":"flex-layout.col#desktop__menu-icon"
+      "blockClass":"desktop__menu-icon"
 },
     "children": ["image#global__menu-icon"]
 },

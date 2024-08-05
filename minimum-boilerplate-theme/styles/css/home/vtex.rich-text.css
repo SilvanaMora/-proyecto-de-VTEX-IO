@@ -2,7 +2,7 @@
     color:aqua
 }
 
-/*Estilos desktop y mobile */
+/*Estilos desktop y mobile button */
 .link--desktop__home--button-card,
 .link--mobile__home--button-card {
     border-radius: 40px; 
@@ -19,6 +19,7 @@
     font-size: 14px; 
     
 }
+
 
 /* Estilos desktop */
 .link--desktop__home--button-card {
@@ -48,10 +49,15 @@
   font-size: 20px;
 }
 
-/*Estilos dektop y mobile para container button */
+/*Estilos desktop y mobile para container button */
 .container--desktop__home--button-card,
 .container--mobile__home--button-card
 {
   justify-content: center;
 }
 
+
+/*estilo text global*/
+.paragraph--global__text-next-watch{
+ padding-left: 40px;
+}
