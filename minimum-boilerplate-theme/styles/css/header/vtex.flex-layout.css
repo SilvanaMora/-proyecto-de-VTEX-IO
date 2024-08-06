@@ -1,49 +1,14 @@
-.flexCol--desktop__header--col-bar{
-   /* flex: 1 1 20% ; */
-    text-align:center;
-    white-space: nowrap;  
-    margin: 0px; 
-    padding: 0 0px 0 8px;
-    
-}
-
-
-
-.flexCol--desktop__header--col-bar1{
-   /* flex: 1 1 20% ; */
-    text-align: center;
-    white-space: nowrap;  
-    overflow: visible;  
-    margin: 0px; 
-    padding-right: 150px;
-    
-
-}
-
-.flexRow--desktop__header--bar-fila{
-    display: flex;
+.flexCol--desktop__header--bar{
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 50px;
+    gap: 10px;
     flex-direction: row;
-    margin: 10px 20px; 
-    justify-content: space-around; 
-    align-items: center; 
-    flex-wrap: nowrap; 
 }
 
-/*.flexCol--desktop__header--col-bar {
-    flex: 1 1 20%;  Ajusta el ancho base de cada columna 
-    text-align: center;
-    white-space: nowrap;  Asegura que el texto no se envuelva 
-    overflow: hidden;
-    text-overflow: ellipsis; Muestra puntos suspensivos si el texto es demasiado largo 
-    margin: 0px;
-    width: auto;
-}
-
-.flexRow--desktop__header--bar-fila {
-    display: flex;
-    flex-direction: row;
-    margin: 10px 20px;
-    justify-content: space-around;  Distribuye los elementos uniformemente 
-    align-items: center;
-}*/
+.flexCol--desktop__logo{
+   padding-right: 10px;
+   text-align: center;
+        
+    }
 

@@ -11,11 +11,21 @@
    
   }
  
-  .menuContainer--global__header--menu{
+ /*revisar por que no funciona*/
+    .menuContainer--global__header--menu{
     overflow-x: scroll;
-    scrollbar-width:none; 
+    scrollbar-width:none;
     
   }
 
- 
+  
+  .styledLinkContainer {
+    margin: 0 15px; 
+}
+
+@media screen and (min-width: 1024px) {
+  .menuContainer--global__header--menu{ 
+    padding-left: 120px;
+  }
+}
   

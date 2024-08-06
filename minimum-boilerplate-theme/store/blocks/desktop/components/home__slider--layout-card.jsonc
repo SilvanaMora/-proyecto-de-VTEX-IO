@@ -57,7 +57,7 @@
       "title": "Desktop home rowcard inside2",
       "children": [
         "flex-layout.col#desktop__home--col1-inside",
-        "flex-layout.col#flex-layout.col#desktop__home--col2-inside"
+        "flex-layout.col#desktop__home--col2-inside"
       ],
       "props": {
         "blockClass": "desktop__home--rowcard-inside2"
@@ -75,19 +75,17 @@
       }
     },
   
-    "flex-layout.col#flex-layout.col#desktop__home--col2-inside": {
+    "flex-layout.col#desktop__home--col2-inside": {
       "title": "Desktop__home--col2-inside",
       "children": [
         "image#desktop__home--image-gold"
       ],
       "props": {
         "blockClass": "desktop__home--col2-inside",
-        "width":"20%",
-        "verticalAlign": "top", 
-        "horizontalAlign": "right",  
-        "padding": "0",  
-        "margin": "0"
-  }
+        "width":"20%", 
+        "verticalAlign": "top",
+         "horizontalAlign": "right"
+        }
     },
   
     "flex-layout.row#desktop__home--rowcard-inside3": {

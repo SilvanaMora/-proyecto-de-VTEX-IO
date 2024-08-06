@@ -16,7 +16,7 @@
     transition: background-color 0.3s;
     line-height: 18px; 
     text-align: center; 
-    font-size: 14px; 
+    font-size: 12px; 
     
 }
 
@@ -46,7 +46,7 @@
 .link--mobile__home--button-card::after {
   content: '→'; 
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 /*Estilos desktop y mobile para container button */
@@ -60,4 +60,15 @@
 /*estilo text global*/
 .paragraph--global__text-next-watch{
  padding-left: 40px;
+ padding-top: 10px;
+}
+/*texto cards*/
+.paragraph--desktop__home--text-card{
+  font-size: 12px;
+}
+
+.paragraph--mobile__home--text-card {
+  font-size: 12px;
+  overflow: hidden; /* Oculta el texto que se desborda del contenedor */
+  text-overflow: ellipsis; /* Muestra puntos suspensivos (...) al final del texto que se desborda */
 }

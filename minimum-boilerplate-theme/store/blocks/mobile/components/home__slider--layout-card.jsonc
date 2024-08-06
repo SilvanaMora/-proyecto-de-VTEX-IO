@@ -21,7 +21,7 @@
 },
 
 "flex-layout.row#mobile__home--row-card": {
-  "title": "Mobile home row card",
+  "title": "Desktop home row card",
   "children": [
     "flex-layout.col#mobile__home--col-card"
   ],
@@ -31,7 +31,7 @@
 },
 
 "flex-layout.col#mobile__home--col-card": {
-  "title": "Mobile home col card",
+  "title": "Desktop home col card",
   "children": [
     "flex-layout.row#mobile__home--rowcard-inside1",
     "flex-layout.row#mobile__home--rowcard-inside2",
@@ -44,7 +44,7 @@
 },
 
 "flex-layout.row#mobile__home--rowcard-inside1": {
-  "title": "Mobile home rowcard inside1",
+  "title": "Desktop home rowcard inside1",
   "children": [
     "image#mobile__home--image-main-card"
   ],
@@ -54,17 +54,18 @@
 },
 
 "flex-layout.row#mobile__home--rowcard-inside2": {
-  "title": "Mobile home rowcard inside2",
+  "title": "Desktop home rowcard inside2",
   "children": [
     "flex-layout.col#mobile__home--col1-inside",
-    "flex-layout.col#flex-layout.col#mobile__home--col2-inside"
+    "flex-layout.col#mobile__home--col2-inside"
   ],
   "props": {
-    "blockClass": "mobile__home--rowcard-inside2"
+    "blockClass": "mobile__home--rowcard-inside2",
+    "preserveLayoutOnMobile": true
   }
 },
 "flex-layout.col#mobile__home--col1-inside": {
-  "title": "Mobile home col1 inside",
+  "title": "Desktop home col1 inside",
   "children": [
     "rich-text#mobile__home--title-card",
     "rich-text#mobile__home--text-card"
@@ -75,23 +76,21 @@
   }
 },
 
-"flex-layout.col#flex-layout.col#mobile__home--col2-inside": {
-  "title": "Mobile__home--col2-inside",
+"flex-layout.col#mobile__home--col2-inside": {
+  "title": "Desktop__home--col2-inside",
   "children": [
     "image#mobile__home--image-gold"
   ],
   "props": {
     "blockClass": "mobile__home--col2-inside",
-    "width":"20%",
-    "verticalAlign": "top", 
-    "horizontalAlign": "right",  
-    "padding": "0",  
-    "margin": "0"
+    "width":"20%",  
+    "verticalAlign": "top",
+    "horizontalAlign": "right"
   }
 },
 
 "flex-layout.row#mobile__home--rowcard-inside3": {
-  "title": "Mobile home rowcard inside3",
+  "title": "Desktop home rowcard inside3",
   "children": [
     "rich-text#mobile__home--button-card"
   ],
@@ -102,7 +101,7 @@
 
 
 "image#mobile__home--image-main-card": {
-  "title": "Mobile home image main card",
+  "title": "Desktop home image main card",
   "props": {
     "src": "/arquivos/image-heading.png",
     "alt": "Image 1",
@@ -111,7 +110,7 @@
 },
 
 "rich-text#mobile__home--title-card": {
-  "title": "Mobile home title card",
+  "title": "Desktop home title card",
   "props": {
     "text": "Heading",
     "blockClass":"mobile__home--title-card"
@@ -120,7 +119,7 @@
 },
 
 "rich-text#mobile__home--text-card": {
-  "title": "Mobile__home--text-card",
+  "title": "Desktop__home--text-card",
   "props": {
     "text": "Builder platform is made by, buildership platfomr is made by…",
     "blockClass":"mobile__home--text-card"
@@ -129,15 +128,16 @@
 },
 
 "image#mobile__home--image-gold": {
-  "title": "Mobile__home--image-gold",
+  "title": "Desktop__home--image-gold",
   "props": {
     "src": "/arquivos/image-gold.png",
     "alt": "Side Image",
     "blockClass":"mobile__home--image-gold"
+
   }
 },
 "rich-text#mobile__home--button-card": {
-  "title": "Mobile home button card",
+  "title": "Desktop home button card",
   "props": {
     "text": "[Ver precio](#)",
     "blockClass": "mobile__home--button-card"

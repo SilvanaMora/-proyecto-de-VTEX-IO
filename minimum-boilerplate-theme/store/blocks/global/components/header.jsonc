@@ -12,14 +12,5 @@
       "title": "Logo ITG",
       "blockClass": "global__logo-itg"
     }
-  },
-  "image#global__menu-icon": {
-    "props": {
-      "src": "/arquivos/hamburguer-menu.png",
-      "alt": "something something",
-      "title": "Menu icon ",
-      "blockClass": "global__menu-icon"
-    }
   }
-
 }
