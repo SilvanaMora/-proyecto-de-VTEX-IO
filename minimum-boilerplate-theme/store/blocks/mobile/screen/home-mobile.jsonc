@@ -2,7 +2,8 @@
     "responsive-layout.mobile#mobile__home": {
       "title": "Home mobile",
       "children": [
-        "slider-layout#mobile__home--slider-card"
+        "slider-layout#mobile__home--slider-card",
+        "flex-layout.row#global__main-shelf--container"
       ]
     }
   }

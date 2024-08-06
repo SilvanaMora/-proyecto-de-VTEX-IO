@@ -4,7 +4,8 @@
     "children": [
       "list-context.image-list#desktop__home--image-main",
       "rich-text#global__text-next-watch",
-      "slider-layout#desktop__home--slider-card"
+      "slider-layout#desktop__home--slider-card",
+      "flex-layout.row#global__main-shelf--container"
     ]
   }
 }
