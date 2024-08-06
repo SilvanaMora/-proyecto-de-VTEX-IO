@@ -1,0 +1,27 @@
+.container :global(.vtex-login-2-x-label){
+    text-align: center;
+    color: white;  
+    text-transform: none;
+    display: block;  
+}
+
+
+.container :global(.vtex-button__label){
+    width: 80px;
+    height: 40px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 40px;
+    border: 1px;
+    opacity: 1;
+    background-color:#1D2734;
+    text-align: center;
+    display: flex;
+}
+
+.label
+{
+    text-align: center;
+    color:white;
+    text-transform: none;
+}

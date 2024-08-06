@@ -1,0 +1,31 @@
+.styledLinkContent--global__header--menu-item
+ {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    max-width: 100%;
+    font-size: 12px;
+    overflow: auto;
+    margin: 0;
+    width: auto;
+   
+  }
+ 
+ /*revisar por que no funciona*/
+    .menuContainer--global__header--menu{
+    overflow-x: scroll;
+    scrollbar-width:none;
+    
+  }
+
+  
+  .styledLinkContainer {
+    margin: 0 15px; 
+}
+
+@media screen and (min-width: 1024px) {
+  .menuContainer--global__header--menu{ 
+    padding-left: 120px;
+  }
+}
+  

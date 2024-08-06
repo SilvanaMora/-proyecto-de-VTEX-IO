@@ -12,6 +12,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.checkout-summary": "0.x",
     "vtex.store": "2.x",
     "vtex.store-image": "0.x",
     "vtex.store-header": "2.x",
@@ -26,6 +27,7 @@
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
+    "vtex.product-list": "0.x",
     "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
@@ -43,11 +45,13 @@
     "vtex.tab-layout": "0.x",
     "vtex.responsive-layout": "0.x",
     "vtex.slider-layout": "0.x",
+    "vtex.store-icons": "0.x",
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
     "vtex.add-to-cart-button": "0.x",
-    "vtex.list-context": "0.x"
+    "vtex.list-context": "0.x",
+    "vtex.overlay-layout": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
