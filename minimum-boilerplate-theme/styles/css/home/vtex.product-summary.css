@@ -1,0 +1,59 @@
+/*.element--global__main-summary{
+    width: 212px;
+    height: 200px;
+    border: solid red;
+}*/
+
+.button:global(.vtex-button__label){
+    background-color: white;
+  }
+
+.clearLink--global__main-summary{
+    width: 212px;
+    height: 378px;
+    /*border: solid rgb(77, 255, 0);*/
+    gap:8px;
+}
+.imageNormal{
+    width: 178px;
+    height: 140px;
+}
+
+.buyButtonText {
+    /* Esconde el texto original */
+    visibility: hidden;
+    position: relative;
+  }
+  
+  .buyButtonText::before {
+    
+    content: "Comprar"; /* Cambia "nuevo texto" por el texto que desees */
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#1D2734;
+    font-family: Lexend;
+    size: 14px;
+  }
+  
+  .brandName{
+    font-family:Lexend;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 7px;
+  }
+ 
+  

@@ -69,6 +69,6 @@
 
 .paragraph--mobile__home--text-card {
   font-size: 12px;
-  overflow: hidden; /* Oculta el texto que se desborda del contenedor */
-  text-overflow: ellipsis; /* Muestra puntos suspensivos (...) al final del texto que se desborda */
+  overflow: hidden; 
+  text-overflow: ellipsis;
 }

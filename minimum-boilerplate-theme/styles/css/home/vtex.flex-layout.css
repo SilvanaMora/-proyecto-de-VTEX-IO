@@ -1,7 +1,7 @@
 .slideChildrenContainer--desktop__home--slider-card{ 
     width: 324px;
     height: 336px;
-    gap: 5px;
+    gap: 100px;
     border-radius: 12px 12px 0px 0px;
     opacity: 0px;
 } 

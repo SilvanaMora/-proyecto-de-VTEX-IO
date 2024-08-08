@@ -1,10 +1,16 @@
 {
-    "flex-layout.row#global__main-shelf--container": {
+  "flex-layout.row#global__main-shelf--container": {
+    "props": {
+      "blockClass": "global__main-shelf--container"
+    },
     "children": [
       "list-context.product-list#global__main-shelf"
     ]
   },
   "list-context.product-list#global__main-shelf": {
+    "props": {
+      "blockClass": "global__main-shelf"
+    },
     "blocks": [
       "product-summary.shelf#global__main-summary"
     ],
@@ -14,21 +20,26 @@
   },
   "slider-layout#global__slider-shelf": {
     "props": {
+      "blockClass": "global__slider-shelf",
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       }
     }
   },
   "product-summary.shelf#global__main-summary": {
+    "props": {
+      "blockClass": "global__main-summary"
+    },
     "children": [
+      "add-to-list-btn",
       "product-summary-image",
       "product-summary-name",
       "product-list-price",
       "product-selling-price",
       "product-summary-buy-button"
-    ],
-    "props": {}
+      
+    ]
   }
 }
