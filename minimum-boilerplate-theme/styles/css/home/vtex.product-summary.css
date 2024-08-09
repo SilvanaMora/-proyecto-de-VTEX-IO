@@ -1,47 +1,26 @@
-/*.element--global__main-summary{
-    width: 212px;
-    height: 200px;
-    border: solid red;
-}*/
-
-.button:global(.vtex-button__label){
-    background-color: white;
-  }
-
-.clearLink--global__main-summary{
-    width: 212px;
-    height: 378px;
-    /*border: solid rgb(77, 255, 0);*/
-    gap:8px;
-}
-.imageNormal{
-    width: 178px;
-    height: 140px;
-}
-
-.buyButtonText {
-    /* Esconde el texto original */
-    visibility: hidden;
-    position: relative;
-  }
-  
-  .buyButtonText::before {
-    
-    content: "Comprar"; /* Cambia "nuevo texto" por el texto que desees */
-    visibility: visible;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:#1D2734;
+.element--global__main-summary :global(.vtex-button) {
+    background: white;
+    border-color:  #1D2734;
+    color: #1D2734;
     font-family: Lexend;
-    size: 14px;
-  }
+    font-size: 14px;
+    text-transform: capitalize; 
+    
+}
+.element--global__main-summary{
+  width: 100%;
   
+}
+.savings{
+  border: #1D2734;
+  border-radius: 4px;
+}
+
+.containerNormal--global__main-summary{
+  width: 212px;
+  height: 378px;
+}
+
   .brandName{
     font-family:Lexend;
     font-size: 14px;
@@ -55,5 +34,8 @@
     text-overflow: ellipsis;
     margin-right: 7px;
   }
- 
+  .imageNormal{
+    width: 178px;
+    height: 140px;
+  }
   
