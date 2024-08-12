@@ -55,6 +55,11 @@
       "message": "{savingsPercentage} OFF"
     }
   },
+  "add-to-list-btn":{
+    "props": {
+      "blockClass": "wishlist-icon" //ver por qué no funciona 
+    }
+  },
   "product-summary-image": {
     "props": {
       "showBadge": false
@@ -63,8 +68,8 @@
   "add-to-cart-button#custom": {
     "props": {
       "blockClass": "custom-add-to-cart-button",
-      "text": "Comprar", 
-      "icon": "minicartbutton" 
+      "text": "Comprar"
+      
     }
   }
 }

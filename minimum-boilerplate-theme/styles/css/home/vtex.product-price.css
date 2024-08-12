@@ -17,3 +17,14 @@
     text-align: left;
   }
  
+  .savings{
+    border-radius:#1D2734; ;
+    background: #1D2734;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    font-family: Lexend;
+    width: 83px;
+    height: 32px;
+    align-content: center; 
+  }

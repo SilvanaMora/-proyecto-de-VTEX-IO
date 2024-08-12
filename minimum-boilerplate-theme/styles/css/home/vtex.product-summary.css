@@ -1,19 +1,27 @@
-.element--global__main-summary :global(.vtex-button) {
-    background: white;
-    border-color:  #1D2734;
-    color: #1D2734;
-    font-family: Lexend;
-    font-size: 14px;
-    text-transform: capitalize; 
-    
+
+
+.element--global__main-summary :global(.vtex-button__label){
+  background:white;
+  color: #1D2734;
+  font-family: Lexend;
+  font-size: 14px;
+  text-transform: capitalize; 
 }
+
+.element--global__main-summary :global(.vtex-button){
+  background: white;
+  border-color:  #1D2734;
+  color: #1D2734;
+  font-family: Lexend;
+  font-size: 14px;
+  text-transform: capitalize;
+  border-radius: 4px;
+  
+}
+
 .element--global__main-summary{
   width: 100%;
   
-}
-.savings{
-  border: #1D2734;
-  border-radius: 4px;
 }
 
 .containerNormal--global__main-summary{
@@ -21,21 +29,29 @@
   height: 378px;
 }
 
-  .brandName{
-    font-family:Lexend;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-    text-align: left;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin-right: 7px;
+.brandName{
+  font-family:Lexend;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 7px;
   }
+
   .imageNormal{
     width: 178px;
     height: 140px;
   }
+
+  .nameContainer{
+    padding-bottom: 5px;
+  }
   
+  
+
+        

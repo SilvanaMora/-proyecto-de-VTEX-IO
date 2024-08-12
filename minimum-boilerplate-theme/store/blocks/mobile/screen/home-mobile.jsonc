@@ -3,6 +3,11 @@
       "title": "Home mobile",
       "children": [
         "slider-layout#mobile__home--slider-card",
+        "rich-text#global__text-next-watch",
+        "flex-layout.row#global__main-shelf--container",
+        "rich-text#global__text-next-watch",
+        "slider-layout#mobile__home--slider-card",
+        "rich-text#global__text-next-watch",
         "flex-layout.row#global__main-shelf--container"
       ]
     }

@@ -11,6 +11,10 @@
   "scripts": {
     "postreleasy": "vtex publish --verbose"
   },
+  "peerDependencies": {
+    "vtex.wish-list": "1.x",
+    "vtex.mega-menu": "2.x"
+  },
   "dependencies": {
     "vtex.checkout-summary": "0.x",
     "vtex.store": "2.x",
@@ -52,8 +56,7 @@
     "vtex.add-to-cart-button": "0.x",
     "vtex.list-context": "0.x",
     "vtex.overlay-layout": "0.x",
-    "vtex.product-price": "1.x",
-    "vtex.wish-list": "1.x"
+    "vtex.product-price": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
