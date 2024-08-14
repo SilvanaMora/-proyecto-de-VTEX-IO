@@ -20,7 +20,8 @@
     },
     "mega-menu#desktop": {
       "props": {
-        "openOnly": "horizontal"
+        "openOnly": "horizontal",
+        "title": "All Categories"
       }
     },
     "flex-layout.col#trigger-mega-menu": {
