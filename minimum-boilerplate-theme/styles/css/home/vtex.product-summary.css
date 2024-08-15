@@ -1,39 +1,8 @@
-
-
-.element--global__main-summary :global(.vtex-button__label){
-  background:white;
-  color: #1D2734;
-  font-family: Lexend;
-  font-size: 14px;
-  text-transform: capitalize; 
-}
-
-.element--global__main-summary :global(.vtex-button){
-  background: white;
-  border-color:  #1D2734;
-  color: #1D2734;
-  font-family: Lexend;
-  font-size: 14px;
-  text-transform: capitalize;
-  border-radius: 4px;
-  
-}
-
-.element--global__main-summary{
-  width: 100%;
-  
-}
-
-.containerNormal--global__main-summary{
-  width: 212px;
-  height: 378px;
-}
-
-.brandName{
+.productBrand{
   font-family:Lexend;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 12.76px;
   text-align: left;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -42,16 +11,86 @@
   text-overflow: ellipsis;
   margin-right: 7px;
   }
-
+  
+  .element--global__main-summary{
+  width: 169px;
+  height: 291px;
+  }
+  
   .imageNormal{
-    width: 178px;
-    height: 140px;
+  width: 135px;
+  height: 106px;
+  }
+
+ .element--global__main-summary :global(.vtex-button){
+    background:white;
+    color: #1D2734;
+    font-family: Lexend;
+    font-size: 14px;
+    text-transform: capitalize; 
+    border-color: #1D2734;
+    width: 160.96px;
+    height: 36.44px;
+    gap: 7.59px;
+    border-radius: 6.07px ;
+
   }
 
   .nameContainer{
-    padding-bottom: 5px;
+    padding:5px;
+    height: 38px;
+    width: 160.96px;
+    gap: 10px;
+    margin-bottom: 5px;
   }
+ 
   
-  
+  @media screen and (min-width: 1024px) {
+    .productBrand{
+    font-family:Lexend;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 7px;
+    }
+    
+    .element--global__main-summary{
+      width: 212px;
+      height: 378px;
+      
+    }
 
+    .imageNormal{
+      width: 178px;
+      height: 140px;
+    }
+    .element--global__main-summary :global(.vtex-button){
+      width: 212px;
+      height: 48px;
+      background: white;
+      border-color:  #1D2734;
+      color: #1D2734;
+      font-family: Lexend;
+      font-size: 14px;
+      text-transform: capitalize;
+      border-radius: 8px ;
+      gap: 10px;
+      
+    }
+
+    .nameContainer{
+      padding:5px;
+      height: 52px;
+      width: 212px;
+      gap: 10px;
+      margin-bottom: 5px;
+    }
+
+  }
  

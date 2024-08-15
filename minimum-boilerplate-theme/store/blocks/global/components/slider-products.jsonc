@@ -46,10 +46,13 @@
       "product-price-savings#global-percent",
       "add-to-list-btn"
     ],
+
     "props": {
-      "blockClass": "container-price_salving-add_favorite"
-    }
-  },
+      "blockClass": "container-price_salving-add_favorite",
+        "preserveLayoutOnMobile": true
+      }
+    },
+    
   "product-price-savings#global-percent": {
     "props": {
       "message": "{savingsPercentage} OFF"
