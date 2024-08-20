@@ -9,7 +9,7 @@
     margin-right: 70px;
   }*/
 
-  .sellingPrice{
+  .listPrice--product-list-price{
     font-family: Lexend;
     font-size: 20px;
     font-weight: 600;
@@ -18,18 +18,21 @@
 
 
   }
- 
-  .savings{
+
+  
+
+   .savings{
     border-radius:#1D2734; ;
     background: #1D2734;
     border-radius: 4px;
     color: white;
     font-size: 14px;
     font-family: Lexend;
-    width: 70px;
-    height: 25px;
     flex-wrap: nowrap; 
     align-content: center;
+    width: 84px;
+    
+    
 
   }
 
@@ -41,29 +44,39 @@
     color: white;
     font-size: 14px;
     font-family: Lexend;
-    width: 84px;
-    height: 32px;
     flex-wrap: nowrap; 
     align-content: center;
     margin-left: auto;
+    width: 70.22px;
+    
 
     }
-    .listPrice {
+    .listPrice--product-list-price {
       font-family: Lexend;
       font-size  : 14px;
       font-weight: 400;
       line-height: 16.8px;
-      text-align : left;
+      text-align : left; 
+      min-height: 20px; 
+      display: flex;
+      align-items: center;
     }
-    /*.priceContainer {
-      margin-right: 70px;
-    }*/
-  
+    
+     
+    
+    .listPrice--product-list-price:empty::before {
+        content: " ";
+        display: inline-block;
+        width: 100%; 
+    }
+    
+   
     .sellingPrice{
       font-family: Lexend;
       font-size: 24px;
       font-weight: 600;
       line-height: 28.8px;
       text-align: left;
+     
     }
   }

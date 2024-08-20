@@ -32,8 +32,8 @@
     width: 160.96px;
     height: 36.44px;
     gap: 7.59px;
-    border-radius: 6.07px ;
-
+    border-radius: 6.07px;
+   
   }
 
   .nameContainer{
@@ -58,12 +58,14 @@
     overflow: hidden;
     text-overflow: ellipsis;
     margin-right: 7px;
+    
     }
     
     .element--global__main-summary{
       width: 212px;
       height: 378px;
-      
+      display: flex;
+      justify-content: space-between;
     }
 
     .imageNormal{
@@ -81,6 +83,7 @@
       text-transform: capitalize;
       border-radius: 8px ;
       gap: 10px;
+     
       
     }
 
@@ -92,5 +95,9 @@
       margin-bottom: 5px;
     }
 
+    .clearLink--global__main-summary{
+display: flex;
+align-items: center;
+    }
   }
  

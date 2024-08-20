@@ -25,7 +25,7 @@
 .link--desktop__home--button-card {
     width: 134px;
     height: 43px; 
-    padding: 8px; 
+   
     border: 0.86px solid; 
     gap: 8px;  
     font-weight: 400;   
@@ -45,7 +45,7 @@
 .link--desktop__home--button-card::after, 
 .link--mobile__home--button-card::after {
   content: '→'; 
-  margin-left: 10px;
+  margin-left: 1.14px;
   font-size: 12px;
 }
 

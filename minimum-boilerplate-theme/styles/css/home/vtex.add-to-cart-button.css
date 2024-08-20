@@ -1,0 +1,14 @@
+
+
+  .buttonText--custom-add-to-cart-button::before {
+    content: " ";
+    display: inline-block;
+    width: 16px; 
+    height: 16px;
+    /*background-image: url('iconpacks/iconpacks.svg#minicartbutton');*/
+    background-image: url('https://img.icons8.com/ios/2x/clear-shopping-cart.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 8px; 
+    
+  }
