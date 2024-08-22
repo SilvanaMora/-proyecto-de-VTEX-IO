@@ -1,11 +1,8 @@
-
 /*.sliderTrackContainer--desktop__home--slider-image-watch {
     width: 3000%;  
     height: 422%; 
     top: 168% 
 }*/
-
-
 
 /*.sliderTrackContainer--desktop__home--slider-card {
     display: flex;
@@ -13,43 +10,46 @@
     height: 100px;
 }*/
 
-.sliderTrackContainer--desktop__home--slider-card{
-    margin-left: 94px;
-    margin-right: 94px;
-       
-}
+/*
+este es el espacio del slidr card de las flechas 
+
+.sliderTrackContainer--desktop__home--slider-card {
+  margin-left: 94px;
+  margin-right: 94px;
+}*/
+
+
+
+
 
 /*dots*/
-.paginationDot{
-    margin       : 0 5px !important;
-    display      : inline-block !important;
-    border-radius: 0%;
-    transition   : background-color 0.3s, transform 0.3s;
-    height       : 1.41px !important;
-    padding      : 0% !important;
-    width        : 26.09px !important;
-    left         : 40.99px;
-    gap          : 0px;
-    opacity      : 0px;
-    margin-top   : 10px !important;
-
-
+.paginationDot {
+  margin: 0 5px !important;
+  display: inline-block !important;
+  border-radius: 0%;
+  transition: background-color 0.3s, transform 0.3s;
+  height: 1.41px !important;
+  padding: 0% !important;
+  width: 26.09px !important;
+  left: 40.99px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 10px !important;
 }
 .paginationDot--isActive {
-    background-color: black;
-    transform       : scale(1.5);
-    border-radius   : 50% !important;
-    transition      : background-color 0.3s, transform 0.3s;
-    width           : 16.96px !important;
-    height          : 16.96px !important;
-    top             : 30.52px !important;
-    left            : 107.52px;
-    gap             : 0px;
-    opacity         : 0px;
-    
+  background-color: black;
+  transform: scale(1.5);
+  border-radius: 50% !important;
+  transition: background-color 0.3s, transform 0.3s;
+  width: 16.96px !important;
+  height: 16.96px !important;
+  top: 30.52px !important;
+  left: 107.52px;
+  gap: 0px;
+  opacity: 0px;
 }
 
-.paginationDotsContainer{
-    display: flex;
-    align-items: center;
+.paginationDotsContainer {
+  display: flex;
+  align-items: center;
 }

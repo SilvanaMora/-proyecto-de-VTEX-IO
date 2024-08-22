@@ -1,0 +1,58 @@
+.listPrice--product-list-price {
+  font-family: Lexend;
+  font-size  : 12px;
+  font-weight: 400;
+  line-height: 12.76px;
+  text-align : left;
+  min-height : 20px;
+  display    : flex;
+  align-items: center;
+  color      : #1d273466;
+  width      : 100%;
+  max-height : 16.98;
+}
+
+.sellingPrice {
+  font-family: Lexend;
+  font-size  : 20px;
+  font-weight: 600;
+  line-height: 21.87px;
+  text-align : left;
+}
+
+.savings {
+  background      : #1d2734;
+  border-radius   : 4px;
+  color           : #ffffff;
+  font-size       : 12px;
+  font-family     : Lexend;
+  flex-wrap       : nowrap;
+  align-content   : center;
+  font-family     : Lexend;
+  font-weight     : 400;
+  line-height     : 15.19px;
+  text-align      : center;
+  padding-left    : 10.5px;
+  padding-right   : 10.5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .listPrice--product-list-price {
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    
+  }
+
+  .sellingPrice {
+    font-size  : 24px;
+    line-height: 28.8px;
+  }
+
+  .savings{
+    padding-left    : 13px;
+    padding-right   : 13px;
+    font-size       : 14px;
+    line-height     : 20px;
+  }
+}
