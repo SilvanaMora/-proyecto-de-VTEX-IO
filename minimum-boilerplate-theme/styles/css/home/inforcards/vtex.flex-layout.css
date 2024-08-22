@@ -1,0 +1,23 @@
+.flexRow--global__slider-card {
+  width : 100%;
+  margin: auto;
+}
+
+.flexRowContent--global__slider-card {
+  width : 100%;
+  margin: auto;
+}
+
+.flexColChild--global__home--col-card {
+  padding-bottom: 0px;
+}
+
+.flexColChild--global__home--col2-inside {
+  padding-top: 10.72px;
+}
+
+@media screen and (min-width: 1024px) {
+  .flexColChild--global__home--col2-inside {
+    padding-top: 13.82px;
+  }
+}
