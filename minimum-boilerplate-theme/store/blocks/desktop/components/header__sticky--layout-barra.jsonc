@@ -18,8 +18,8 @@
     },
     "children": [
     //  "flex-layout.col#spacer",
-      "drawer",
-      "flex-layout.col#desktop__logo",
+     "flex-layout.col#desktop__mega-menu",
+     "flex-layout.col#desktop__logo",
      // "flex-layout.col#spacer",
       "search-bar",
      // "flex-layout.col#spacer",

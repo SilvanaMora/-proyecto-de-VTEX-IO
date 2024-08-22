@@ -4,7 +4,13 @@
     "children": [
       "list-context.image-list#desktop__home--image-main",
       "rich-text#global__text-next-watch",
-      "slider-layout#desktop__home--slider-card"
+      "flex-layout.row#desktop__slider-card",
+      "rich-text#global__text-next-watch",
+      "flex-layout.row#global__main-shelf--container",
+      "rich-text#global__text-next-watch",
+      "flex-layout.row#desktop__slider-card",
+      "rich-text#global__text-next-watch",
+      "flex-layout.row#global__main-shelf--container"
     ]
   }
 }

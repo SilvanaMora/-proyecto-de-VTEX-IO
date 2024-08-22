@@ -1,0 +1,70 @@
+.imageNormal {
+  width     : 100%;
+  max-height: 140px;
+
+}
+
+.imageWrapper--global__image {
+  padding-top   : 12px;
+  padding-bottom: 12px;
+}
+
+.nameContainer {
+  padding-top   : 10px;
+  padding-bottom: 0px;
+}
+
+.productBrand {
+  font-family       : Lexend;
+  font-size         : 12px;
+  font-weight       : 400;
+  line-height       : 12.76px;
+  text-align        : left;
+  display           : -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow          : hidden;
+  text-overflow     : ellipsis;
+  margin-right      : 7px;
+  color             : #1D273499;
+}
+
+.element--global__main-summary :global(.vtex-button) {
+  background    : #ffff;
+  border-color  : #1d2734;
+  color         : #1d2734;
+  font-family   : Lexend;
+  font-size     : 14px;
+  text-transform: capitalize;
+  gap           : 7.59px;
+  border-radius : 6.07px;
+  width         : 100%;
+  max-height    : 48px;
+}
+
+.element--global__main-summary {
+  display        : flex;
+  justify-content: space-between;
+  width          : 100%;
+  max-height     : 378px;
+}
+
+.clearLink--global__main-summary {
+  display    : flex;
+  align-items: center;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+  .productBrand {
+    font-size  : 14px;
+    line-height: 16.8px;
+  }
+
+  .element--global__main-summary :global(.vtex-button) {
+    border-radius: 8px;
+    gap          : 10px;
+  }
+}

@@ -11,7 +11,7 @@
   "flex-layout.row#mobile__header--main": {
     "children": [
       "flex-layout.col#spacer",
-      "drawer",
+      "flex-layout.row#mobile__mega-menu",
       "flex-layout.col#mobile__logo",
       "flex-layout.col#spacer",
       "overlay-trigger#header__overlay--mobile",
