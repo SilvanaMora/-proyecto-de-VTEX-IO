@@ -14,6 +14,9 @@
   padding-bottom: 0px;
 }
 
+.productNameContainer{
+  width: 100%;
+}
 .productBrand {
   font-family       : Lexend;
   font-size         : 12px;
@@ -46,7 +49,8 @@
   display        : flex;
   justify-content: space-between;
   width          : 100%;
-  
+  padding-right  : 8px;
+
 }
 
 .clearLink--global__main-summary {
@@ -67,4 +71,6 @@
     border-radius: 8px;
     gap          : 10px;
   }
+
+  
 }
