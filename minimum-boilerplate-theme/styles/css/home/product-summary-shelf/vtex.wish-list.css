@@ -2,7 +2,6 @@
   border-color   : #1d2734;
   border-radius  : 3.04px;
   justify-content: center;
-  /* border      : 1px 0px 0px 0px;revisar por que pasa del borde */
   opacity        : 0px;
   box-sizing     : border-box;
   min-height   : 32px;
@@ -24,7 +23,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  /*.wishlistIconContainer */
   .wishlistIconContainer--wishlist-icon :global(.vtex-button) {
     
     border-radius: 4px;
