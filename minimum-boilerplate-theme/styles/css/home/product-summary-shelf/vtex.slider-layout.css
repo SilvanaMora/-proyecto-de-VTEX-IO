@@ -1,0 +1,22 @@
+.sliderArrows--global__slider-shelf{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .sliderArrows--global__slider-shelf {
+        display: block;
+    }
+    
+    .sliderLeftArrow--global__slider-shelf{
+        margin-left: -39px;
+
+    }
+
+   .sliderRightArrow--global__slider-shelf{
+    margin-right: -38px;
+   }
+
+ 
+}

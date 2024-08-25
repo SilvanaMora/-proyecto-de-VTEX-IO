@@ -7,3 +7,7 @@
     height: 32px;
 
 }
+
+.sliderLeftArrow--global__slider-shelf{
+    display: none;
+}
