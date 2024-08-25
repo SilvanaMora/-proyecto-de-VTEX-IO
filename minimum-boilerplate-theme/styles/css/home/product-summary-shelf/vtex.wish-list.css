@@ -24,7 +24,7 @@
 @media screen and (min-width: 1024px) {
   /*.wishlistIconContainer */
   .wishlistIconContainer--wishlist-icon :global(.vtex-button) {
-    max-height   : 32px;
+    min-height   : 32px;
     border-radius: 4px;
     height       : 100%;
     box-sizing   : border-box;

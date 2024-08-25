@@ -10,7 +10,7 @@
     "title": "Mobile home slider card",
     "props": {
       "itemsPerPage": {
-        "desktop": 4,
+        "desktop": 3,
         "tablet": 3,
         "phone": 2
       },
@@ -34,9 +34,8 @@
       "flex-layout.col#global__home--col-card"
     ],
     "props": {
-      "blockClass": "global__home--row-card",
-      "colGap": 2,
-      "rowGap": 2
+      "blockClass": "global__home--row-card"
+     
     }
   },
 
@@ -70,7 +69,8 @@
     ],
     "props": {
       "blockClass": "global__home--rowcard-inside2",
-      "preserveLayoutOnMobile": true
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
     }
   },
 
@@ -81,8 +81,8 @@
       "rich-text#global__home--text-card"
     ],
     "props": {
-      "blockClass": "global__home--col1-inside",
-      "colSizing":"auto"//no funciona
+      "blockClass": "global__home--col1-inside"
+      
      
     }
   },

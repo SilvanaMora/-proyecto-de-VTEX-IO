@@ -1,0 +1,15 @@
+.sliderArrows--global__home--slider-card {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .sliderArrows--global__home--slider-card {
+        display: block;
+    }
+    .sliderRightArrow--global__home--slider-card{
+        margin-right: -16px;
+    }
+    .sliderLeftArrow--global__home--slider-card{
+        margin-left: -40px;
+    }
+}
