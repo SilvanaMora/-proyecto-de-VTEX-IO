@@ -1,0 +1,102 @@
+.paragraph--global__home--text-card {
+  font-family       : Lexend;
+  font-size         : 10px;
+  font-weight       : 300;
+  line-height       : 10.84px;
+  text-align        : left;
+  display           : -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow          : hidden;
+  text-overflow     : ellipsis;
+  margin-top        : 0px;
+  margin-bottom     : 0px;
+  margin-left       : 13.82px;
+}
+
+.paragraph--global__home--title-card {
+  margin-top   : 0px;
+  margin-bottom: 0px;
+  font-family  : Lexend;
+  text-align   : left;
+  font-size    : 16px;
+  font-weight  : 600;
+  line-height  : 18.59px;
+  margin-top   : 13.82px;
+  margin-bottom: 10.37px;
+  margin-left  : 13.82px;
+
+}
+
+.link--global__home--button-card {
+  width           : 100px;
+  height          : 32px;
+  border-radius   : 40px;
+  background-color: #1d2734;
+  border          : 0.65px solid #1d2734;
+  color           : #ffffff;
+  display         : inline-flex;
+  align-items     : center;
+  justify-content : center;
+  text-decoration : none;
+  cursor          : pointer;
+  text-align      : center;
+  font-family     : Lexend;
+  font-size       : 12px;
+  font-weight     : 500;
+  line-height     : 14.63px;
+}
+
+.container--global__home--button-card {
+  justify-content : center;
+  background-color: #ffffff;
+}
+
+.link--global__home--button-card::after {
+  content          : " ";
+  display          : inline-block;
+  width            : 12.91px;
+  height           : 12.91px;
+  background-image : url("assets/img/arrow-right-mobile.svg");
+  background-size  : contain;
+  background-repeat: no-repeat;
+  margin-left      : 7px;
+  margin-top       : 4px;
+  vertical-align   : middle;
+}
+
+@media screen and (min-width: 1024px) {
+  .paragraph--global__home--text-card {
+    font-size  : 12px;
+    line-height: 14.52px;
+  }
+
+  .paragraph--global__home--title-card {
+    line-height: 24.88px;
+  }
+
+  .link--global__home--button-card {
+    width      : 134px;
+    height     : 43px;
+    gap        : 8px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  .link--global__home--button-card::after {
+    width           : 17.28px;
+    height          : 17.28px;
+    background-image: url("assets/img/right-arrow.svg");
+    margin-left     : 1.14px;
+    margin-top      : 3px;
+
+  }
+
+  .paragraph--global__home--text-card {
+    display           : -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow          : hidden;
+    text-overflow     : ellipsis;
+  }
+}

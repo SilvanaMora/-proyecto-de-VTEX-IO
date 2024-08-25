@@ -1,0 +1,24 @@
+.flexRow--global__slider-card {
+  width : 100%;
+  margin: auto;
+}
+
+.flexRowContent--global__slider-card {
+  max-width: 1092px;
+  margin   : auto;
+}
+
+.flexColChild--global__home--col-card {
+  padding-bottom: 0px;
+  background-color: #FFFFFF;
+}
+
+.flexColChild--global__home--col2-inside {
+  padding: 13.82px 13.82px 0px 13.82px;
+
+}
+
+
+.flexRowContent--global__home--row-card{
+  padding-right: 24px;
+}
