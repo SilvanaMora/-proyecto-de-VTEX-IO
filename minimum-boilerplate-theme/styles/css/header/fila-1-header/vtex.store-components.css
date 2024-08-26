@@ -1,11 +1,10 @@
 .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
-  width: 280px;
-  height: 40px;
+  max-width: 280px;
+  max-height: 40px;
   gap: 16px;
   border-radius: 40px;
   opacity: 0px;
+  background:#f5f4f6;
 }
 
-.imageElement--global__menu-icon {
-  padding-top: 7px;
-}
+

@@ -1,0 +1,23 @@
+.flexCol--desktop__header--bar {
+  padding-top   : 10px;
+  padding-right : 28px;
+  padding-left  : 58px;
+  gap           : 13px;
+  flex-direction: row;
+}
+
+.flexCol--desktop__logo {
+  padding-right: 16px;
+  padding-left : 8px;
+  text-align   : center;
+}
+
+.flexRowContent--desktop__header--main {
+  max-height: 56px;
+  align-items: center;
+}
+
+.flexRowContent--mobile__header--main {
+  max-height: 56px;
+  align-items: center;
+}

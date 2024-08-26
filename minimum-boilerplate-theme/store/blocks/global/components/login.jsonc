@@ -1,13 +1,22 @@
 {
-    "login": {
+  "login#global-login": {
     "props": {
       "emailAndPasswordTitle": "LOG-IN",
-      "accessCodeTitle": "Acess Code LOG-IN",
-      "emailPlaceholder": "e-mail",
-      "passwordPlaceholder": "password",
+      "accessCodeTitle": "LOG-IN",
+      "emailPlaceholder": "Enter your e-mail",
+      "passwordPlaceholder": "Enter your password",
       "showPasswordVerificationIntoTooltip": true,
-      "iconLabel": "Login"
+      "iconLabel": "Login",
+      "providerPasswordButtonLabel": "Continue with an e-mail and password",
+      "accessCodePlaceholder": "Enter your access code"
     }
   }
 }
-  
+      
+        
+      /*  
+        "forgotPasswordLinkClass": "forgot-password-link",  
+        "createAccountLinkClass": "create-account-link" 
+      }*/
+      
+   

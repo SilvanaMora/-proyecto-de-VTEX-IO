@@ -16,7 +16,7 @@
       "flex-layout.col#spacer",
       "overlay-trigger#header__overlay--mobile",
       "minicart.v2",
-      "login"
+      "login#global-login"
     ],
     "props": {
       "blockClass": "mobile__header--main",
