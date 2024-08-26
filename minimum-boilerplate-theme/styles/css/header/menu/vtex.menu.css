@@ -9,9 +9,11 @@
   width: auto;
 }
 
+
 .menuContainer--global__header--menu {
   overflow-x: scroll;
   scrollbar-width: none;
+  max-height: 56px;
 }
 
 .styledLinkContainer {

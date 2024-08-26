@@ -17,19 +17,12 @@
       "blockClass": "desktop__header--main"
     },
     "children": [
-    //  "flex-layout.col#spacer",
      "flex-layout.col#desktop__mega-menu",
      "flex-layout.col#desktop__logo",
-     // "flex-layout.col#spacer",
       "search-bar",
-     // "flex-layout.col#spacer",
       "flex-layout.col#desktop__header--bar", 
-      //"flex-layout.col#spacer",
-     // "locale-switcher",
       "minicart.v2",
       "login"
-    //  "flex-layout.col#spacer" 
-      
     ]
   },
   "flex-layout.col#desktop__logo": {

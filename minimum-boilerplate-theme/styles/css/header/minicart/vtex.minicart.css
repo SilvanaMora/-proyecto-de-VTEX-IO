@@ -5,4 +5,11 @@
   align-items: center;
   justify-content: center;
   overflow: "visible";
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.openIconContainer{
+  padding-left: 0px;
+  padding-right: 0px;
 }
