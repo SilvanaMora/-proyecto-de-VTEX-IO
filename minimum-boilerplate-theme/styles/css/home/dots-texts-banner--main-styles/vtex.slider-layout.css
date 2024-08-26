@@ -22,7 +22,11 @@ este es el espacio del slidr card de las flechas
 
 
 
-/*dots*/
+
+
+
+
+
 .paginationDot {
   margin: 0 5px !important;
   display: inline-block !important;
@@ -36,6 +40,7 @@ este es el espacio del slidr card de las flechas
   opacity: 0px;
   margin-top: 10px !important;
 }
+
 .paginationDot--isActive {
   background-color: black;
   transform: scale(1.5);
@@ -52,4 +57,31 @@ este es el espacio del slidr card de las flechas
 .paginationDotsContainer {
   display: flex;
   align-items: center;
+}
+
+.paginationDot--isActive::before {
+  content         : “”;
+  position        : absolute;
+  right           : -8px;
+  width           : 16px;
+  height          : 16px;
+  background-color: #1D2734;
+  border-radius   : 50%;
+}
+.paginationDot::after {
+  width           : 44px;
+  height          : 2px;
+  content         : “”;
+  font-size       : 0;
+  background-color: #1D2734;
+  position        : absolute;
+}
+
+
+.paginationDotsContainer--global__home--slider-card{
+  top: 350px;
+}
+
+.paginationDotsContainer--global__slider-shelf{
+  top: 450px;
 }
