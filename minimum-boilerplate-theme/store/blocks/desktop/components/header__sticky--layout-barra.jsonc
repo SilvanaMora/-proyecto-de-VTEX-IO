@@ -22,7 +22,7 @@
       "search-bar",
       "flex-layout.col#desktop__header--bar", 
       "minicart.v2",
-      "login"
+      "login#global-login"
     ]
   },
   "flex-layout.col#desktop__logo": {
