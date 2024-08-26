@@ -14,8 +14,10 @@
 
 .flexRowContent--desktop__header--main {
   max-height: 56px;
+  align-items: center;
 }
 
 .flexRowContent--mobile__header--main {
   max-height: 56px;
+  align-items: center;
 }
