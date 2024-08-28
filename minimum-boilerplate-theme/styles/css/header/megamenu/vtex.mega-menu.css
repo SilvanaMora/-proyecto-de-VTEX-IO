@@ -7,7 +7,6 @@
 .caretIcon {
     display: none;
 }
-
 .styledLinkContainer {
     margin-left   : 16px;
     margin-right  : auto;
@@ -19,7 +18,7 @@
     scrollbar-width: none;
     max-width      : 220px;
     max-height     : 647px;
-    border-bottom-left-radius: 16px;
+   
 }
 
 .submenuContainer {
@@ -29,8 +28,8 @@
     scrollbar-width : none;
     width           : unset;
     max-height      : 647px;
-    min-width       : 323px;
-    border-bottom-right-radius: 16px;
+    min-width       : 500px;
+    
 }
 
 .submenuContainerTitle
@@ -58,14 +57,26 @@ text-align: left;
     gap:1rem;
 }
 .menuContainerNav::after {
-content: '';
+    content: '';
     position: fixed;
+    width: 100vw;
+    height: 100vh;
     top: 62px;
     left: 0;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    } 
+    }  
+
+  
+    /*.vtex-flex-layout-0-x-stretchChildrenWidth{
+        width: max-content;
+    }*/
+    .menuContainerNav{
+        width: auto !important;
+        border-bottom-right-radius: 16px;
+        border-bottom-left-radius: 16px;
+        margin-left: 72px;
+
+    }
