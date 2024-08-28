@@ -1,7 +1,8 @@
 {
   "sticky-layout#desktop__header": {
     "props": {
-      "blockClass": "desktop__header"
+      "blockClass": "desktop__header",
+      "fullWidth": true
     },
     "children": [
       "flex-layout.row#desktop__header--main"
@@ -9,12 +10,12 @@
   },
   "flex-layout.row#desktop__header--main": {
     "props": {
-      "horizontalAlign": "center",
+      "horizontalAlign": "between",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true,
       "blockClass": "desktop__header--main"
+
     },
     "children": [
      "flex-layout.col#desktop__mega-menu",

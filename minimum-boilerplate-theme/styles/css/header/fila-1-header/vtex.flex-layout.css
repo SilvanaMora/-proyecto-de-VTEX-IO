@@ -21,3 +21,7 @@
   max-height: 56px;
   align-items: center;
 }
+.flexRow--desktop__header--main{
+  max-width: 1280px;
+  margin: auto;
+}
