@@ -58,7 +58,7 @@ text-align: left;
     gap:1rem;
 }
 .menuContainerNav::after {
-   content: '';
+content: '';
     position: fixed;
     top: 62px;
     left: 0;
