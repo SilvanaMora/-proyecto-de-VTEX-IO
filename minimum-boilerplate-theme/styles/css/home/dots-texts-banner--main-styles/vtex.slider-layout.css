@@ -1,87 +1,37 @@
-/*.sliderTrackContainer--desktop__home--slider-image-watch {
-    width: 3000%;  
-    height: 422%; 
-    top: 168% 
-}*/
-
-/*.sliderTrackContainer--desktop__home--slider-card {
-    display: flex;
-    width: 1200px;
-    height: 100px;
-}*/
-
-/*
-este es el espacio del slidr card de las flechas 
-
-.sliderTrackContainer--desktop__home--slider-card {
-  margin-left: 94px;
-  margin-right: 94px;
-}*/
-
-
-
-
-
-
-
-
-
-
 .paginationDot {
-  margin: 0 5px !important;
-  display: inline-block !important;
-  border-radius: 0%;
-  transition: background-color 0.3s, transform 0.3s;
-  height: 1.41px !important;
-  padding: 0% !important;
-  width: 26.09px !important;
-  left: 40.99px;
-  gap: 0px;
-  opacity: 0px;
-  margin-top: 10px !important;
+  width           : 44px !important;
+  height          : 40px !important;
+  border-radius   : 0;
+  position        : relative;
+  background-color: transparent;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  margin          : 0 2px;
 }
 
-.paginationDot--isActive {
-  background-color: black;
-  transform: scale(1.5);
-  border-radius: 50% !important;
-  transition: background-color 0.3s, transform 0.3s;
-  width: 16.96px !important;
-  height: 16.96px !important;
-  top: 30.52px !important;
-  left: 107.52px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.paginationDotsContainer {
-  display: flex;
-  align-items: center;
-}
-
-.paginationDot--isActive::before {
-  content         : “”;
-  position        : absolute;
-  right           : -8px;
-  width           : 16px;
-  height          : 16px;
-  background-color: #1D2734;
-  border-radius   : 50%;
-}
 .paginationDot::after {
   width           : 44px;
   height          : 2px;
-  content         : “”;
-  font-size       : 0;
-  background-color: #1D2734;
+  content         : "";
   position        : absolute;
+  background-color: #1D2734;
 }
 
+.paginationDot--isActive::before {
+  width           : 16px;
+  height          : 16px;
+  content         : "";
+  position        : absolute;
+  right           : -8px;
+  background-color: #1D2734;
+  border-radius   : 50%;
+}
 
-.paginationDotsContainer--global__home--slider-card{
+.paginationDotsContainer--global__home--slider-card {
   top: 350px;
 }
 
-.paginationDotsContainer--global__slider-shelf{
-  top: 450px;
+.paginationDotsContainer--global__slider-shelf {
+  top: 400px;
 }

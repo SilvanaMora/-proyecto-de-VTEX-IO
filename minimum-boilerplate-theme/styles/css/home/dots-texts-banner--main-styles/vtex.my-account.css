@@ -1,9 +1,9 @@
 :global(.vtex-slider-layout-0-x-paginationDot--isActive ~ .vtex-slider-layout-0-x-paginationDot::after) {
     width    : 44px;
     height   : 2px;
-    content  : “”;
+    content  : “ ”;
     font-size: 0;
-    background-color: rgba(0, 0, 0, .4);
+    background-color:  #1D273466;
     position: absolute;
 }
 
