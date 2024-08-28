@@ -2,13 +2,13 @@
     "responsive-layout.mobile#mobile__home": {
       "title": "Home mobile",
       "children": [
-        "rich-text#global__text-next-watch",
+        "flex-layout.row#global__row-rich-text",
         "flex-layout.row#global__slider-card",
-        "rich-text#global__text-next-watch",
+        "flex-layout.row#global__row-rich-text",
         "flex-layout.row#global__main-shelf--container",
-        "rich-text#global__text-next-watch",
+        "flex-layout.row#global__row-rich-text",
         "flex-layout.row#global__slider-card",
-        "rich-text#global__text-next-watch",
+        "flex-layout.row#global__row-rich-text",
         "flex-layout.row#global__main-shelf--container"
       ]
     }

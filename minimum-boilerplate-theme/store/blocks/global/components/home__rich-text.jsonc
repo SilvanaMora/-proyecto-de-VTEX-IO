@@ -1,4 +1,13 @@
 {
+  "flex-layout.row#global__row-rich-text": {
+    "props": {
+      "blockClass": "global__row-rich-text"
+    },
+    "children": [
+      "rich-text#global__text-next-watch"
+    ]
+  },
+
   "rich-text#global__text-next-watch": {
     "title": "Desktop text next watch",
     "props": {
