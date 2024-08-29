@@ -4,8 +4,8 @@
       "horizontalAlign": "center",
       "fullWidth": true,
       "verticalAlign": "center",
-      /*"preventHorizontalStretch": true,
-      "preventVerticalStretch": true,*/
+      
+      "preventVerticalStretch": true,
       "blockClass": "global__header-menu-item"
     },
     "children": ["vtex.menu@2.x:menu#global__header--menu-item"]
