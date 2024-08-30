@@ -31,7 +31,7 @@
       "verticalAlign": "middle",
       "blockClass":"desktop__logo"
 },
-    "children": ["image#global__logo-itg"]
+    "children": ["logo#global__logo-itg"]
   },
 
 "flex-layout.col#desktop__header--bar":{

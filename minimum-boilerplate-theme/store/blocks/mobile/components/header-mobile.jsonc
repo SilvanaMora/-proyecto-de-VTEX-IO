@@ -30,7 +30,7 @@
       "verticalAlign": "middle",
       "padding": "10px 0"
 },
-    "children": ["image#global__logo-itg"] 
+    "children": [ "logo#global__logo-itg"] 
 }
 }
 

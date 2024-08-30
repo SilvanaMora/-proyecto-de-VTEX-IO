@@ -5,12 +5,14 @@
     }
   },
 
-  "image#global__logo-itg": {
+  "logo#global__logo-itg": {
     "props": {
-      "src": "/arquivos/icono-itg.svg",
-      "alt": "something something",
       "title": "Logo ITG",
+      "url": "/arquivos/icono-itg.svg",
+      "width": "40",
+      "href": "/",
       "blockClass": "global__logo-itg"
     }
+ 
   }
 }
