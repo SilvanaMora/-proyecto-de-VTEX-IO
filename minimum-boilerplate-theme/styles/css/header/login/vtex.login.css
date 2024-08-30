@@ -55,6 +55,23 @@
 
 }
 
+.content--beginCreatePass .formTitle{
+  font-size: 0;
+  display: flex;
+flex-direction: column;
+}
+
+.content--beginCreatePass .formTitle::before{
+  content: "RECUPERAR CLAVE";
+  font-size: 16px;
+}
+
+.content--beginCreatePass .formTitle::after{
+  content: "Receive access code by email";
+  font-size: 16px;
+}
+
+
 .vtex-login-2-x-button {
   border: solid red;
 }
