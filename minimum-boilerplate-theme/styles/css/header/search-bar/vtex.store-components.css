@@ -1,0 +1,19 @@
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+  max-width: 280px;
+  max-height: 40px;
+  gap: 16px;
+  border-radius: 40px;
+  opacity: 0px;
+  background:#f5f4f6;
+}
+
+.searchBarInnerContainer :global(.vtex-styleguide-9-x-input)::placeholder{
+  font-family: Lexend;
+  font-size  : 12px;
+  font-weight: 300;
+  line-height: 15px;
+  text-align : left;
+  color      : #1D2734;
+}
+
+
