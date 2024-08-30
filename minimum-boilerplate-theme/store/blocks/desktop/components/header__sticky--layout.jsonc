@@ -20,7 +20,7 @@
     "children": [
      "flex-layout.col#desktop__mega-menu",
      "flex-layout.col#desktop__logo",
-      "search-bar",
+     "flex-layout.col#desktop__header--search-bar",
       "flex-layout.col#desktop__header--bar", 
       "minicart.v2",
       "login#global-login"
