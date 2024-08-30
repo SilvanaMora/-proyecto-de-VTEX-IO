@@ -1,5 +1,9 @@
 {
    "flex-layout.col#desktop__mega-menu": {
+    "props": {
+      "blockClass":"desktop__mega-menu",
+      "preventVerticalStretch": true
+    },
       "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
     },
   
