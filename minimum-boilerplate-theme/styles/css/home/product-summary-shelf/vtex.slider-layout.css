@@ -2,6 +2,11 @@
     display: none;
 }
 
+.sliderLayoutContainer--global__slider-shelf{
+display: flex;
+align-items: flex-start;
+padding: 0px 40px 80px 40px;
+}
 
 
 @media screen and (min-width: 1024px) {

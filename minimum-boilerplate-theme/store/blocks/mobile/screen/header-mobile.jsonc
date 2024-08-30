@@ -2,7 +2,7 @@
     "header-layout.mobile": {
     "children": [
         "sticky-layout#mobile__header",
-        "vtex.menu@2.x:menu#global__header--menu-item"
+        "flex-layout.row#global__header-menu-item"
        
     ]
 }

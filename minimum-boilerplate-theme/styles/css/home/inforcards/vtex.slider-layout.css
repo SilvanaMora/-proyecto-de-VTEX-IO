@@ -2,6 +2,12 @@
     display: none;
 }
 
+.sliderLayoutContainer--global__home--slider-card{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 40px 80px 40px;
+    }
+
 @media screen and (min-width: 1024px) {
     .sliderArrows--global__home--slider-card {
         display: block;
