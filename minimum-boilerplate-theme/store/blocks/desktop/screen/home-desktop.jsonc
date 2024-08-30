@@ -2,7 +2,7 @@
   "responsive-layout.desktop#desktop__home": {
     "title": "Home desktop",
     "children": [
-      "list-context.image-list#desktop__home--image-main",
+      "flex-layout.row#desktop__home--slider",
       "flex-layout.row#global__row-rich-text",
       "flex-layout.row#global__slider-card",
       "flex-layout.row#global__row-rich-text",
