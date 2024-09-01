@@ -1,0 +1,15 @@
+{
+  "flex-layout.col#desktop__header--search-bar": {
+    "props": {
+      "blockClass": "desktop__header--searchbar"
+    },
+    "children": ["search-bar#desktop__search-bar"]
+  },
+
+  "search-bar#desktop__search-bar": {
+    "props": {
+      "placeholder": "Search products....",
+      "blockClass": "desktop__search-bar"
+    }
+  }
+}
