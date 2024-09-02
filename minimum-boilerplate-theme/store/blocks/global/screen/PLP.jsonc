@@ -1,0 +1,10 @@
+{
+"search-content#global":{
+    "blocks":[
+      "gallery#global__search",
+        "not-found"
+    ]
+    }
+  }
+    
+  

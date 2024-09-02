@@ -1,0 +1,10 @@
+{"search-result-layout.desktop": {
+    "children": [
+        "search-content#global"
+    ],
+    "props": {
+        "preventRouteChange": true
+    }
+}
+
+}

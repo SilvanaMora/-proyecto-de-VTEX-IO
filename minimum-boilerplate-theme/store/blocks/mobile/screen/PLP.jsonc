@@ -1,0 +1,10 @@
+{"search-result-layout.mobile": {
+    "children": [
+        "search-content#global"
+    ],
+    "props": {
+        "preventRouteChange": true
+    }
+}
+
+}

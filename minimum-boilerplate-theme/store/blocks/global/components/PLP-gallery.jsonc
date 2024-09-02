@@ -1,0 +1,35 @@
+{
+    "gallery#global__search": {
+      "props": {
+        "layouts": [
+          {
+            "name": "whole",
+            "component": "OneOrTwoLineSummary",
+            "itemsPerRow": {
+              "desktop": 3,
+              "tablet": 2,
+              "mobile": 1
+            }
+          },
+          {
+            "name": "two",
+            "component": "OneOrTwoLineSummary",
+            "itemsPerRow": 2
+          },
+          {
+            "name": "many",
+            "component": "ManyByLineSummary",
+            "itemsPerRow": {
+              "desktop": 3,
+              "tablet": 2,
+              "mobile": 1
+            }
+          }
+        ]
+        /*
+        "OneOrTwoLineSummary": "product-summary.shelf#global__gallery--summary",
+        "ManyByLineSummary": "product-summary.shelf#global__gallery--summary"
+      }*/
+    }
+}
+}
