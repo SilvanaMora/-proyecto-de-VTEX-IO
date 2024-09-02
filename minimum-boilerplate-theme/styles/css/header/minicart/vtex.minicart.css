@@ -1,15 +1,118 @@
 .minicartIconContainer {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
+  width          : 100%;
+  height         : 100%;
+  display        : flex;
+  align-items    : center;
   justify-content: center;
-  overflow: "visible";
-  padding-left: 0px;
+  overflow       : "visible";
+  padding-left   : 0px;
+  padding-right  : 0px;
+
+}
+
+.openIconContainer {
+  padding-left : 0px;
   padding-right: 0px;
 }
 
-.openIconContainer{
-  padding-left: 0px;
-  padding-right: 0px;
+.minicartTitle {
+  margin-top: 60px;
+  padding   : 0px 16px;
+  font-size : 0;
+}
+
+.minicartTitle::before {
+  content    : "Resumen de tu compra";
+  font-family: Lexend;
+  font-size  : 14px;
+  font-weight: 600;
+  line-height: 17.5px;
+  text-align : left;
+  color      : #1D2734;
+  ;
+
+}
+.minicartProductListContainer {
+  margin: 20px 0px;
+  padding: 0;
+}
+
+.drawer {
+  display         : flex;
+  justify-content : space-around;
+  background-color: #FFFFFF;
+
+}
+
+.drawerContent {
+  position  : relative;
+  overflow-y: unset;
+}
+
+.drawerContent :global(.vtex-minicart-2-x-closeIconContainer) {
+  position: absolute;
+  right   : 0px;
+  top     : 0px;
+
+}
+
+.drawerContent :global(.vtex-minicart-2-x-closeIconButton) {
+  background   : #F5F4F6;
+  padding      : 1px;
+  border-radius: 40px;
+  margin-right: 16px;
+  align-items: center;
+
+}
+
+
+.minicartSideBarContentWrapper {
+ min-height: 59rem;
+}
+
+
+/*
+.minicartSummary--minicart__summary {
+  border-radius: 4px;
+  border: solid rgb(226, 49, 49);
+  width: 100%;
+}
+
+.minicartSummary--minicart__summary
+  :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
+  display: none;
+}
+
+
+*/
+.minicartCheckoutButton--minicart__checkout--button {
+  padding: 0;
+  width  : 100%;
+
+}
+
+.minicartCheckoutButton--minicart__checkout--button :global(.vtex-button) {
+  width        : 100%;
+  border       : 1px;
+  border-radius: 40px;
+  background   : #1D2734;
+  padding      : 10px;
+
+}
+
+.minicartCheckoutButton--minicart__checkout--button :global(.vtex-button__label) {
+  font-size: 0;
+}
+
+
+.minicartCheckoutButton--minicart__checkout--button :global(.vtex-button__label)::before {
+  content       : "Finalizar tu compra";
+  text-transform: math-auto;
+  font-family   : Lexend;
+  font-size     : 14px;
+  font-weight   : 400;
+  line-height   : 17.5px;
+  text-align    : center;
+  color         : #FFFFFF;
+
 }
