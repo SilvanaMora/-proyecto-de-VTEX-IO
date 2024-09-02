@@ -1,5 +1,5 @@
 {
-    "gallery#global__search": {
+  "gallery#global__search": {
       "props": {
         "layouts": [
           {
@@ -25,11 +25,40 @@
               "mobile": 1
             }
           }
-        ]
-        /*
-        "OneOrTwoLineSummary": "product-summary.shelf#global__gallery--summary",
-        "ManyByLineSummary": "product-summary.shelf#global__gallery--summary"
-      }*/
+        ],
+        
+        "OneOrTwoLineSummary":  "product-summary.shelf#global__gallery--product-summary",
+        "ManyByLineSummary":   "product-summary.shelf#global__gallery--product-summary"
+      }
+    },
+    "gallery-layout-switcher#global__gallery--switcher": {
+      "children": [
+        "gallery-layout-option#whole",
+        "gallery-layout-option#two",
+        "gallery-layout-option#many"
+      ],
+      "props": {
+        "blockClass": "global__gallery--switcher"
+      }
+    },
+    
+    "gallery-layout-option#whole": {
+      "props": {
+        "name": "whole"
+      },
+      "children": ["icon-single-grid"]
+    },
+    "gallery-layout-option#two": {
+      "props": {
+        "name": "two"
+      },
+      "children": ["icon-inline-grid"]
+    },
+    "gallery-layout-option#many": {
+      "props": {
+        "name": "many"
+      },
+      "children": ["icon-menu"]
     }
-}
-}
+  }
+  
