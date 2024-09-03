@@ -1,0 +1,95 @@
+{
+  "flex-layout.row#mobile__plp": {
+    "title": "PLP layout mobile",
+    "children": ["flex-layout.col#mobile__container--plp"],
+    "props": {
+      "blockClass": "mobile__plp"
+    }
+  },
+
+  "flex-layout.col#mobile__container--plp": {
+    "title": "PLP container mobile",
+    "children": [
+      "flex-layout.row#mobile__head--plp",
+      "flex-layout.row#mobile__body--plp"
+    ],
+    "props": {
+      "blockClass": "mobile__container--plp"
+    }
+  },
+
+  "flex-layout.row#mobile__head--plp": {
+    "title": "PLP mobile head",
+    "children": [
+      "flex-layout.col#mobile__breadcrumb--search--totalproducts",
+      "flex-layout.col#mobile__order--gallery"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "fullWidth": true,
+      "blockClass": "mobile__head--plp"
+    }
+  },
+
+  "flex-layout.col#mobile__breadcrumb--search--totalproducts": {
+    "title": "Container mobile breadcrumb--search--totalproducts",
+    "children": [
+      "breadcrumb.search#global__breadcrumb--search",
+      "search-title.v2#global__search--title",
+      "total-products.v2#global__total--products"
+    ],
+    "props": {
+      "blockClass": "mobile__breadcrumb--search--totalproducts"
+    }
+  },
+
+  "flex-layout.col#mobile__order--gallery": {
+   "title": "Mobile order gallery",
+    "children": [
+      "order-by.v2#global__order--by",
+      "gallery-layout-switcher#global__gallery--switcher"
+    ],
+    "props": {
+      "blockClass": "mobile__order--gallery"
+    }
+  },
+
+  "flex-layout.row#mobile__body--plp": {
+    "title": "Mobile body PLP",
+    "children": [
+      "flex-layout.col#mobile__filter--options",
+      "flex-layout.col#mobile__product--gallery"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "mobile__body--plp"
+    }
+  },
+
+  "flex-layout.col#mobile__filter--options": {
+    "title": "Mobile filter options",
+    "children": ["filter-navigator.v3#global__filter--navigator"],
+    "props": {
+      "blockClass": "mobile__filter--options"
+    }
+  },
+
+  "flex-layout.col#mobile__product--gallery": {
+    "title": "Mobile product gallery col",
+    "children": [
+      "search-content#global__content",
+      "search-products-count-per-page",
+      "search-fetch-more#mobile__buttom--see-more"
+    ],
+    "props": {
+      "blockClass": "mobile__product--gallery"
+    }
+  },
+  "search-fetch-more#mobile__buttom--see-more": {
+    "title": "Mobile button see more",
+    "props": {
+      "blockClass": "mobile__buttom--see-more",
+      "text": "Ver más"
+    }
+  }
+}
