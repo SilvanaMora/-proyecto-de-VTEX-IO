@@ -182,7 +182,7 @@
       "responsive-layout.mobile#mobile__container--pdp-button-add-to-cart"
     ],
     "props": {
-      "blockClass":"global__pdp--button-add--to--cart"
+      "blockClass": "global__pdp--button-add--to--cart"
     }
   },
   "product-quantity#global__product--quantity": {

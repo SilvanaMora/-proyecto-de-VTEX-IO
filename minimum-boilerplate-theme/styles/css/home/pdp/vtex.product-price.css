@@ -4,12 +4,13 @@
     font-weight: 600;
     line-height: 16.8px;
     text-align : left;
-    
+
 }
-.sellingPrice--hasListPrice::before{
-    content: "Now";
+
+.sellingPrice--hasListPrice::before {
+    content      : "Now";
     padding-right: 2px;
-   
+
 }
 
 .listPriceValue {
@@ -20,6 +21,5 @@
     font-weight: 400;
     text-align : left;
     color      : #1D273466;
-   
-}
 
+}

@@ -1,38 +1,39 @@
 .productBrand--global__product--name {
   font-family: Lexend;
-  font-size: 16px;
+  font-size  : 16px;
   font-weight: 300;
   line-height: 16.8px;
-  text-align: left;
+  text-align : left;
 }
+
 .productNameContainer--global__product--name {
-  display: inline;
+  display      : inline;
   margin-bottom: 16px;
-  max-width: 328px;
-  height: 34px;
+  max-width    : 328px;
+  height       : 34px;
 }
 
 .carouselGaleryThumbs {
-    display: block;
+  display: block;
 }
 
 .skuSelectorContainer--sku-size--pdp {
-    display       : flex;
-    flex-direction: column;
-}
-
-.skuSelectorSubcontainer{
-    order: 2;
+  display       : flex;
+  flex-direction: column;
 }
 
 .skuSelectorSubcontainer {
-    order: 1;
+  order: 2;
+}
+
+.skuSelectorSubcontainer {
+  order: 1;
 }
 
 .skuSelectorSubcontainer--color :global(.vtex-store-components-3-x-skuSelectorItem) {
-    width        : 64px;
-    height       : 88px;
-    border-radius: 10px;
+  width        : 64px;
+  height       : 88px;
+  border-radius: 10px;
 }
 
 
@@ -41,6 +42,6 @@
 @media screen and (min-width: 1024px) {
   .productNameContainer--global__product--name {
     max-width: 481px;
-    height: 34px;
+    height   : 34px;
   }
 }

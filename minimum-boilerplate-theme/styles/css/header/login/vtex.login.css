@@ -237,7 +237,8 @@
 .formLinkContainer {
   justify-content: center;
 }
- /*
+
+/*
 .formLinkContainer :global(.vtex-login-2-x-dontHaveAccount) {
   font-family: Lexend;
   font-size  : 14px;
@@ -249,7 +250,7 @@
 }
 */
 .formLinkContainer :global(.vtex-login-2-x-dontHaveAccount) {
-  content: "Create an account";
+  content    : "Create an account";
   font-family: Lexend;
   font-size  : 14px;
   font-weight: 400;
@@ -292,11 +293,11 @@
 
 
 .portalContainer .arrowBackIcon {
-  width : 26px;
-  height: 26px;
-  color : #1D2734;
+  width   : 26px;
+  height  : 26px;
+  color   : #1D2734;
   position: relative;
-  top: -130px;
+  top     : -130px;
 }
 
 /*button send.sendButton :global(.vtex-button) {
@@ -307,16 +308,16 @@
 .portalContainer .sendButton :global(.vtex-button)::before {
   visibility      : visible;
   content         : "Login";*/
-  .portalContainer .sendButton :global(.vtex-button){
+.portalContainer .sendButton :global(.vtex-button) {
   padding         : 10px;
   gap             : 10px;
   border-radius   : 40px;
   border          : 1px;
   opacity         : 0px;
-  width       : 300px;
+  width           : 300px;
   color           : white;
   background-color: #1d2734;
- 
+
 
 }
 

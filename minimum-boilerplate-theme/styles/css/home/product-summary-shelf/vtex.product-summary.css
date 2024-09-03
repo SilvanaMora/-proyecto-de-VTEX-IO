@@ -69,7 +69,7 @@
   }
 
   .element--global__main-summary :global(.vtex-button) {
-    min-height: 48px;
+    min-height   : 48px;
     border-radius: 8px;
 
   }

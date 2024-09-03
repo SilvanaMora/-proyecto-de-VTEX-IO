@@ -1,5 +1,5 @@
 {
-    "overlay-trigger#header__overlay--mobile": {
+  "overlay-trigger#header__overlay--mobile": {
     "children": [
       "icon#header__search--mobile",
       "overlay-layout#header__overlayout"
@@ -16,9 +16,7 @@
     }
   },
   "overlay-layout#header__overlayout": {
-    "children": [
-      "search-bar#header__search--mobile"
-    ],
+    "children": ["search-bar#header__search--mobile"],
     "props": {
       "placement": "left",
       "blockClass": "header__overlayout",

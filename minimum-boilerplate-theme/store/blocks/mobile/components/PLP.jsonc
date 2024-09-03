@@ -44,7 +44,7 @@
   },
 
   "flex-layout.col#mobile__order--gallery": {
-   "title": "Mobile order gallery",
+    "title": "Mobile order gallery",
     "children": [
       "order-by.v2#global__order--by",
       "gallery-layout-switcher#global__gallery--switcher"

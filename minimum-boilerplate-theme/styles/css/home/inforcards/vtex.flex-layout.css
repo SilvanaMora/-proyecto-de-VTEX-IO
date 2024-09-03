@@ -9,7 +9,7 @@
 }
 
 .flexColChild--global__home--col-card {
-  padding-bottom: 0px;
+  padding-bottom  : 0px;
   background-color: #FFFFFF;
 }
 
@@ -20,6 +20,6 @@
 
 
 
-.flexRowContent--global__home--row-card{
+.flexRowContent--global__home--row-card {
   padding-right: 24px;
 }
