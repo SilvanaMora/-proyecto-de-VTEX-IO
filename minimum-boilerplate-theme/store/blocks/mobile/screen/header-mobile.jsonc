@@ -1,9 +1,9 @@
 {
-    "header-layout.mobile": {
+  "header-layout.mobile": {
+    "title": "Header mobile",
     "children": [
-        "sticky-layout#mobile__header",
-        "flex-layout.row#global__header-menu-item"
-       
+      "sticky-layout#mobile__header",
+      "flex-layout.row#global__header-menu-item"
     ]
-}
+  }
 }
