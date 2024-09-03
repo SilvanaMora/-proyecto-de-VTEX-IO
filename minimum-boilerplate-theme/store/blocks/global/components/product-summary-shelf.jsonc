@@ -1,24 +1,21 @@
 {
   "flex-layout.row#global__main-shelf--container": {
+    "title": "Main shelf container row",
     "props": {
       "blockClass": "global__main-shelf--container"
     },
-    "children": [
-      "list-context.product-list#global__main-shelf"
-    ]
+    "children": ["list-context.product-list#global__main-shelf"]
   },
   "list-context.product-list#global__main-shelf": {
+    "title": "Main shelf pproduct list",
     "props": {
       "blockClass": "global__main-shelf"
     },
-    "blocks": [
-      "product-summary.shelf#global__main-summary"
-    ],
-    "children": [
-      "slider-layout#global__slider-shelf"
-    ]
+    "blocks": ["product-summary.shelf#global__main-summary"],
+    "children": ["slider-layout#global__slider-shelf"]
   },
   "slider-layout#global__slider-shelf": {
+    "title": "slider layout product shelf",
     "props": {
       "blockClass": "global__slider-shelf",
       "itemsPerPage": {
@@ -29,6 +26,7 @@
     }
   },
   "product-summary.shelf#global__main-summary": {
+    "title": "Product summary shelf",
     "props": {
       "blockClass": "global__main-summary"
     },
@@ -43,6 +41,7 @@
     ]
   },
   "flex-layout.row#container-price_salving-add_favorite": {
+    "title": "Container price, savings, and wishlist row",
     "children": [
       "product-price-savings#global-percent",
       "add-to-list-btn#global__wishlist-icon"
@@ -50,33 +49,37 @@
     "props": {
       "blockClass": "container-price_salving-wishlist-icon",
       "preserveLayoutOnMobile": true,
-      "colSizing":"auto"
+      "colSizing": "auto"
     }
   },
   "product-price-savings#global-percent": {
+    "title": "Product price savings",
     "props": {
       "message": "{savingsPercentage} OFF"
     }
   },
   "add-to-list-btn#global__wishlist-icon": {
+    "title": "Add to wishlist icon",
     "props": {
       "blockClass": "wishlist-icon"
     }
   },
   "product-summary-image#global__image": {
+    "title": "Product summary image",
     "props": {
       "blockClass": "global__image",
       "showBadge": false
     }
   },
   "add-to-cart-button#global__custom-add-to-cart-button": {
+    "title": "Custom add to cart button",
     "props": {
       "blockClass": "custom-add-to-cart-button",
       "text": "Comprar"
-     
     }
   },
   "product-list-price#global__product-list-price": {
+    "title": "Product list price",
     "props": {
       "blockClass": "product-list-price",
       "alwaysShow": true

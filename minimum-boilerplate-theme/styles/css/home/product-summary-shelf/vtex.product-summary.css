@@ -14,9 +14,10 @@
   padding-bottom: 0px;
 }
 
-.productNameContainer{
+.productNameContainer {
   width: 100%;
 }
+
 .productBrand {
   font-family       : Lexend;
   font-size         : 12px;
@@ -42,7 +43,7 @@
   gap           : 7.59px;
   border-radius : 6.07px;
   width         : 100%;
-  max-height    : 48px;
+  min-height    : 48px;
 }
 
 .element--global__main-summary {
@@ -68,9 +69,10 @@
   }
 
   .element--global__main-summary :global(.vtex-button) {
+    min-height: 48px;
     border-radius: 8px;
-    gap          : 10px;
+
   }
 
-  
+
 }
