@@ -1,5 +1,5 @@
 {
-  "product-summary.shelf#global__gallery--product-summary": {
+  "product-summary.shelf#gallery-product": {
     "children": [
       "flex-layout.row#global__shelf--content-gallery"
     ],
