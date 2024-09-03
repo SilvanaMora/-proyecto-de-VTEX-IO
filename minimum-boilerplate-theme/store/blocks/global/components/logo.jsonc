@@ -6,6 +6,7 @@
   },
 
   "logo#global__logo-itg": {
+    "title": "ITG Logo",
     "props": {
       "title": "Logo ITG",
       "url": "/arquivos/icono-itg.svg",

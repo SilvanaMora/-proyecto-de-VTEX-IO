@@ -14,8 +14,10 @@
     }
     .sliderRightArrow--global__home--slider-card{
         margin-right: -16px;
+        margin-top: 143px;
     }
     .sliderLeftArrow--global__home--slider-card{
         margin-left: -40px;
+        margin-top: 143px;
     }
 }

@@ -16,11 +16,13 @@ padding: 0px 40px 80px 40px;
     
     .sliderLeftArrow--global__slider-shelf{
         margin-left: -39px;
+        margin-top: 196px;
 
     }
 
    .sliderRightArrow--global__slider-shelf{
     margin-right: -38px;
+    margin-top: 196px;
    }
 
  
