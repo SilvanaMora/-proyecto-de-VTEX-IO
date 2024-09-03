@@ -2,22 +2,24 @@
     display: none;
 }
 
-.sliderLayoutContainer--global__home--slider-card{
-    display: flex;
+.sliderLayoutContainer--global__home--slider-card {
+    display    : flex;
     align-items: flex-start;
-    padding: 0px 40px 80px 40px;
-    }
+    padding    : 0px 40px 80px 40px;
+}
 
 @media screen and (min-width: 1024px) {
     .sliderArrows--global__home--slider-card {
         display: block;
     }
-    .sliderRightArrow--global__home--slider-card{
+
+    .sliderRightArrow--global__home--slider-card {
         margin-right: -16px;
-        margin-top: 143px;
+        top         : calc(50% - 61.5px);
     }
-    .sliderLeftArrow--global__home--slider-card{
-        margin-left: -40px;
-        margin-top: 143px;
+
+    .sliderLeftArrow--global__home--slider-card {
+        margin-left: -16px;
+        top        : calc(50% - 61.5px);
     }
 }
