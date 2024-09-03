@@ -1,0 +1,71 @@
+{
+  "flex-layout.row#global__pdp--especification": {
+      "title": "PDP Global specification",
+      "children": [
+        "product-specification-group#global__product--specification-group"
+      ],
+      "props": {
+        "blockClass": "global__especification--pdp"
+      }
+    },
+    "product-specification-group#global__product--specification-group": {
+      "title": "Product specification group",
+      "children": [
+        "product-specification-text#global__group--name",
+        "flex-layout.row#global__row--product-specification"
+      ],
+      "props": {
+        "blockClass": "global__product--specification-group"
+      }
+    },
+    "product-specification-text#global__group--name": {
+      "title": "Specification group name",
+      "props": {
+        "message": "{groupName}",
+        "blockClass": "global__group--name"
+      }
+    },
+    "flex-layout.row#global__row--product-specification": {
+      "title": "Row for displaying product specifications",
+      "props": {
+        "blockClass": "global__product--specification"
+      },
+      "children": [
+        "product-specification#global_container--product-specification"
+      ]
+    },
+    "product-specification#global_container--product-specification": {
+      "title": "Container product specification",
+      "children": [
+        "product-specification-text#global__product--specification-text",
+        "product-specification-values#global__values"
+      ],
+      "props": {
+        "blockClass": "global_container--product-specification"
+      }
+    },
+    "product-specification-text#global__product--specification-text": {
+      "title": "Product specification text",
+      "props": {
+        "message": "{specificationName}",
+        "blockClass": "global__product--specification-text"
+      }
+    },
+    "product-specification-values#global__values": {
+      "title": "Product specification values",
+      "children": [
+        "product-specification-text#global__specification__value"
+      ],
+      "props": {
+        "blockClass": "global__values"
+      }
+    },
+    "product-specification-text#global__specification__value": {
+      "title": "Specification Value Text",
+      "props": {
+        "message": "{specificationValue}",
+        "blockClass": "global__specification__value"
+      }
+    }
+  }
+  
