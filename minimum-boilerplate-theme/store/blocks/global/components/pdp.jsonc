@@ -1,0 +1,218 @@
+{
+  "flex-layout.row#global__product--main": {
+    "title": "Main product row",
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "colSizing": "auto",
+      "blockClass": "global__product--main"
+    },
+    "children": [
+      "flex-layout.col#global__product--image",
+      "flex-layout.col#global__product--information"
+    ]
+  },
+
+  "flex-layout.col#global__product--image": {
+    "title": "Product image col",
+    "props": {
+      "width": "60%",
+      "rowGap": 0,
+      "blockClass": "global__product--image"
+    },
+    "children": [
+      "responsive-layout.desktop#desktop__pdp--images",
+      "responsive-layout.mobile#mobile__pdp--images"
+    ]
+  },
+
+  "responsive-layout.desktop#desktop__pdp--images": {
+    "title": "Desktop container pdp images",
+    "children": ["product-images#desktop__product--images"]
+  },
+  "responsive-layout.mobile#mobile__pdp--images": {
+    "title": "Mobile container pdp images",
+    "children": ["product-images#mobile__product--images"]
+  },
+  "product-images#desktop__product--images": {
+    "title": "Desktop product images",
+    "props": {
+      "aspectRatio": "1:1",
+      "displayThumbnailsArrows": false,
+      "showPaginationDots": false,
+      "showNavigationArrows": false,
+      "thumbnailsOrientation": "vertical",
+      "blockClass": "desktop__product--images"
+    }
+  },
+  "product-images#mobile__product--images": {
+    "title": "Mobile product images",
+    "props": {
+      "displayThumbnailsArrows": false,
+      "showPaginationDots": false,
+      "showNavigationArrows": false,
+      "thumbnailsOrientation": "horizontal",
+      "blockClass": "mobile__product--images"
+    }
+  },
+  "flex-layout.col#global__product--information": {
+    "title": "Global product information",
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "global__product--information"
+    },
+    "children": [
+      "flex-layout.row#global__pdp--highlights",
+      "vtex.store-components:product-name#global__product--name",
+      "flex-layout.row#global__pdp--price",
+      "sku-selector",
+      "flex-layout.row#global__pdp--quantity--button",
+      "share",
+      "flex-layout.row#global__pdp--especification"
+    ]
+  },
+  "flex-layout.row#global__pdp--highlights": {
+    "title": "PDP highlights row",
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#global__pdp--flash-deal",
+      "vtex.product-highlights@2.x:product-highlights#global__pdp--best-seller"
+    ],
+    "props": {
+      "blockClass": "global__pdp--highlights"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#global__pdp--flash-deal": {
+    "title": "Product highlight flash deal",
+    "children": ["product-highlight-wrapper#global__wrapper--pdp__flash-deal"],
+    "props": {
+      "filter": {
+        "highlightNames": ["Flash Deal"],
+        "type": "show"
+      },
+      "blockClass": "global__pdp--flash-deal"
+    }
+  },
+  "product-highlight-wrapper#global__wrapper--pdp__flash-deal": {
+    "title": "Wrapper for highlight pdp flash deal",
+    "children": ["product-highlight-text#global__text--flash-deal"],
+    "props": {
+      "blockClass": "global__wrapper--pdp__flash-deal"
+    }
+  },
+  "product-highlight-text#global__text--flash-deal": {
+    "title": "Flash deal text",
+    "props": {
+      "message": "Flash Deal",
+      "blockClass": "global__text--flash-deal"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#global__pdp--best-seller": {
+    "title": "Product highlight best seller",
+    "children": ["product-highlight-wrapper#global__wrapper--pdp-best-seller"],
+    "props": {
+      "filter": {
+        "highlightNames": ["Best Seller"],
+        "type": "show"
+      },
+      "blockClass": "global__pdp--best-seller"
+    }
+  },
+  "product-highlight-wrapper#global__wrapper--pdp-best-seller": {
+    "title": "Wrapper for highlight pdp best seller",
+    "children": ["product-highlight-text#global__text--best-seller"],
+    "props": {
+      "blockClass": "global__wrapper--pdp-best-seller"
+    }
+  },
+  "product-highlight-text#global__text--best-seller": {
+    "title": "Best seller text",
+    "props": {
+      "message": "Best Seller",
+      "blockClass": "global__text--best-seller"
+    }
+  },
+  "vtex.store-components:product-name#global__product--name": {
+    "title": "PDP Product name",
+    "props": {
+      "showSku": false,
+      "showBrandName": false,
+      "displayMode": "plainText",
+      "blockClass": "global__product--name"
+    }
+  },
+  "flex-layout.row#global__pdp--price": {
+    "title": "PDP Price row",
+    "props": {
+      "blockClass": "global__pdp--price"
+    },
+    "children": ["product-selling-price", "product-list-price"]
+  },
+  "sku-selector": {
+    "props": {
+      "blockClass": ["sku-selector--pdp", "sku-size--pdp"]
+    }
+  },
+  "flex-layout.row#global__pdp--quantity--button": {
+    "title": "PDP quantity button and add to cart button row",
+    "props": {
+      "fullWidth": true,
+      "blockClass": "global__pdp--quantity--button"
+    },
+    "children": [
+      "flex-layout.col#global__pdp--quantity",
+      "flex-layout.col#global__pdp--button-add--to--cart"
+    ]
+  },
+  "flex-layout.col#global__pdp--quantity": {
+    "title": "PDP Quantity column",
+    "children": ["product-quantity#global__product--quantity"],
+    "props": {
+      "blockClass": "global__pdp--quantity"
+    }
+  },
+  "flex-layout.col#global__pdp--button-add--to--cart": {
+    "title": "PDP Add to cart column",
+    "children": [
+      "responsive-layout.desktop#desktop__container--pdp--button-add-to-cart",
+      "responsive-layout.mobile#mobile__container--pdp-button-add-to-cart"
+    ],
+    "props": {
+      "blockClass":"global__pdp--button-add--to--cart"
+    }
+  },
+  "product-quantity#global__product--quantity": {
+    "title": "Product quantity",
+    "props": {
+      "showLabel": false,
+      "collapsible": "never",
+      "blockClass": "global__product--quantity"
+    }
+  },
+  "responsive-layout.desktop#desktop__container--pdp--button-add-to-cart": {
+    "title": "Desktop container PDP button add to cart",
+    "children": ["add-to-cart-button#desktop__pdp--button-add-to-cart"]
+  },
+  "responsive-layout.mobile#mobile__container--pdp-button-add-to-cart": {
+    "title": "Mobile container PDP button add to cart",
+    "children": ["add-to-cart-button#mobile__pdp--button-add-to-cart"]
+  },
+  "add-to-cart-button#desktop__pdp--button-add-to-cart": {
+    "title": "Desktop button add to cart",
+    "props": {
+      "text": "Agregar al carrito",
+      "blockClass": "desktop__pdp--button--add--to--cart"
+    }
+  },
+  "add-to-cart-button#mobile__pdp--button-add-to-cart": {
+    "title": "Mobile button add to cart",
+    "props": {
+      "text": "Agregar",
+      "blockClass": "mobile__pdp--button-add-to-cart"
+    }
+  }
+}

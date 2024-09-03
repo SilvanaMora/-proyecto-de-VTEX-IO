@@ -1,0 +1,5 @@
+{
+  "store.product": {
+    "children": ["flex-layout.row#global__product--main"]
+  }
+}

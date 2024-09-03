@@ -1,5 +1,6 @@
 { 
   "flex-layout.row#global__slider-card": {
+    "title": "Slider card",
     "children": ["slider-layout#global__home--slider-card"],
     "props": {
       "blockClass": "global__slider-card"
