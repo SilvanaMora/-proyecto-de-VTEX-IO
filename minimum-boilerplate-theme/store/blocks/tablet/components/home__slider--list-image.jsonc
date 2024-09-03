@@ -1,16 +1,14 @@
 {
   "list-context.image-list#tablet__home--image-main": {
     "title": "Tablet image watch full",
-    "children": [
-      "slider-layout#tablet__home--slider-image-watch"
-    ],
+    "children": ["slider-layout#tablet__home--slider-image-watch"],
     "props": {
       "preload": true,
       "width": "3000px",
       "top": "168px",
       "gap": "0px",
       "opacity": "0px",
-      "blockClass":"tablet__home--image-main",
+      "blockClass": "tablet__home--image-main",
       "images": [
         {
           "loading": "eager",
@@ -19,7 +17,7 @@
           "link": {
             "url": "#"
           }
-          }
+        }
       ]
     }
   },
@@ -27,7 +25,7 @@
   "slider-layout#tablet__home--slider-image-watch": {
     "title": "Tablet slider home watch full ",
     "props": {
-      "blockClass":"tablet__home--slider-image-watch",
+      "blockClass": "tablet__home--slider-image-watch",
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,

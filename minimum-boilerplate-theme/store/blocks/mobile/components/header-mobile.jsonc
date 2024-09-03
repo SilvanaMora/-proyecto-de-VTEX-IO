@@ -1,11 +1,14 @@
 {
   "sticky-layout#mobile__header": {
+    "title": "Mobile header layout configuration",
     "props": {
       "blockClass": "mobile__header"
     },
     "children": ["flex-layout.row#mobile__header--main"]
   },
+  
   "flex-layout.row#mobile__header--main": {
+    "title": "Main row  mobile header",
     "children": [
       "flex-layout.col#mobile__col-left",
       "flex-layout.col#mobile__col-right"
@@ -20,6 +23,7 @@
     }
   },
   "flex-layout.col#mobile__col-left": {
+    "title": "Left column mobile header",
     "props": {
       "colSizing": "auto",
       "verticalAlign": "middle",
@@ -32,6 +36,7 @@
   },
 
   "flex-layout.col#mobile__col-right": {
+    "title": "Right column mobile header",
     "props": {
       "colSizing": "auto",
       "verticalAlign": "middle",
@@ -44,6 +49,7 @@
     ]
   },
   "flex-layout.col#mobile__logo": {
+    "title": "Logo column mobile header",
     "props": {
       "verticalAlign": "middle",
       "padding": "10px 0"
