@@ -1,0 +1,25 @@
+.sellingPrice--hasListPrice {
+    font-family: Lexend;
+    font-size  : 24px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-align : left;
+    
+}
+.sellingPrice--hasListPrice::before{
+    content: "Now";
+    padding-right: 2px;
+   
+}
+
+.listPriceValue {
+    font-family: Lexend;
+    line-height: 16.8px;
+    text-align : left;
+    font-size  : 14px;
+    font-weight: 400;
+    text-align : left;
+    color      : #1D273466;
+   
+}
+

@@ -8,7 +8,8 @@
       "marginBottom": 7,
       "paddingTop": 7,
       "paddingBottom": 7,
-      "colSizing": "auto"
+      "colSizing": "auto",
+      "blockClass": "global__product--main"
     },
     "children": [
       "flex-layout.col#global__product--image",
@@ -180,7 +181,9 @@
       "responsive-layout.desktop#desktop__container--pdp--button-add-to-cart",
       "responsive-layout.mobile#mobile__container--pdp-button-add-to-cart"
     ],
-    "props": {}
+    "props": {
+      "blockClass":"global__pdp--button-add--to--cart"
+    }
   },
   "product-quantity#global__product--quantity": {
     "title": "Product quantity",
