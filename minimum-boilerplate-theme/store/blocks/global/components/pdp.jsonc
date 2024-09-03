@@ -31,15 +31,11 @@
 
   "responsive-layout.desktop#desktop__pdp--images": {
     "title": "Desktop container pdp images",
-    "children": [
-      "product-images#desktop__product--images"
-    ]
+    "children": ["product-images#desktop__product--images"]
   },
   "responsive-layout.mobile#mobile__pdp--images": {
     "title": "Mobile container pdp images",
-    "children": [
-      "product-images#mobile__product--images"
-    ]
+    "children": ["product-images#mobile__product--images"]
   },
   "product-images#desktop__product--images": {
     "title": "Desktop product images",
@@ -91,14 +87,10 @@
   },
   "vtex.product-highlights@2.x:product-highlights#global__pdp--flash-deal": {
     "title": "Product highlight flash deal",
-    "children": [
-      "product-highlight-wrapper#global__wrapper--pdp__flash-deal"
-    ],
+    "children": ["product-highlight-wrapper#global__wrapper--pdp__flash-deal"],
     "props": {
       "filter": {
-        "highlightNames": [
-          "Flash Deal"
-        ],
+        "highlightNames": ["Flash Deal"],
         "type": "show"
       },
       "blockClass": "global__pdp--flash-deal"
@@ -106,9 +98,7 @@
   },
   "product-highlight-wrapper#global__wrapper--pdp__flash-deal": {
     "title": "Wrapper for highlight pdp flash deal",
-    "children": [
-      "product-highlight-text#global__text--flash-deal"
-    ],
+    "children": ["product-highlight-text#global__text--flash-deal"],
     "props": {
       "blockClass": "global__wrapper--pdp__flash-deal"
     }
@@ -122,14 +112,10 @@
   },
   "vtex.product-highlights@2.x:product-highlights#global__pdp--best-seller": {
     "title": "Product highlight best seller",
-    "children": [
-      "product-highlight-wrapper#global__wrapper--pdp-best-seller"
-    ],
+    "children": ["product-highlight-wrapper#global__wrapper--pdp-best-seller"],
     "props": {
       "filter": {
-        "highlightNames": [
-          "Best Seller"
-        ],
+        "highlightNames": ["Best Seller"],
         "type": "show"
       },
       "blockClass": "global__pdp--best-seller"
@@ -137,9 +123,7 @@
   },
   "product-highlight-wrapper#global__wrapper--pdp-best-seller": {
     "title": "Wrapper for highlight pdp best seller",
-    "children": [
-      "product-highlight-text#global__text--best-seller"
-    ],
+    "children": ["product-highlight-text#global__text--best-seller"],
     "props": {
       "blockClass": "global__wrapper--pdp-best-seller"
     }
@@ -165,17 +149,11 @@
     "props": {
       "blockClass": "global__pdp--price"
     },
-    "children": [
-      "product-selling-price",
-      "product-list-price"
-    ]
+    "children": ["product-selling-price", "product-list-price"]
   },
   "sku-selector": {
     "props": {
-      "blockClass": [
-        "sku-selector--pdp",
-        "sku-size--pdp"
-      ]
+      "blockClass": ["sku-selector--pdp", "sku-size--pdp"]
     }
   },
   "flex-layout.row#global__pdp--quantity--button": {
@@ -191,9 +169,7 @@
   },
   "flex-layout.col#global__pdp--quantity": {
     "title": "PDP Quantity column",
-    "children": [
-      "product-quantity#global__product--quantity"
-    ],
+    "children": ["product-quantity#global__product--quantity"],
     "props": {
       "blockClass": "global__pdp--quantity"
     }
@@ -216,15 +192,11 @@
   },
   "responsive-layout.desktop#desktop__container--pdp--button-add-to-cart": {
     "title": "Desktop container PDP button add to cart",
-    "children": [
-      "add-to-cart-button#desktop__pdp--button-add-to-cart"
-    ]
+    "children": ["add-to-cart-button#desktop__pdp--button-add-to-cart"]
   },
   "responsive-layout.mobile#mobile__container--pdp-button-add-to-cart": {
     "title": "Mobile container PDP button add to cart",
-    "children": [
-      "add-to-cart-button#mobile__pdp--button-add-to-cart"
-    ]
+    "children": ["add-to-cart-button#mobile__pdp--button-add-to-cart"]
   },
   "add-to-cart-button#desktop__pdp--button-add-to-cart": {
     "title": "Desktop button add to cart",

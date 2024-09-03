@@ -1,17 +1,5 @@
 {
   "store.product": {
-    "children": [
-      "flex-layout.row#global__product--main",
-      "rich-text#prueba"
-    ]
-  
-},
-
-  "rich-text#prueba": {
-    "props": {
-      "text": "Visit our [help](https://developers.vtex.com/vtex-developer-docs/docs/welcome) section.\n**Be Bold!**\n*This is italic*"
-    }
+    "children": ["flex-layout.row#global__product--main"]
   }
 }
-
-
