@@ -62,7 +62,7 @@
     "props": {
       "filter": {
         "type": "show",
-        "highlightNames": ["Free Shipping"]
+        "highlightNames": ["Envío gratis"]
       }
     }
   }
