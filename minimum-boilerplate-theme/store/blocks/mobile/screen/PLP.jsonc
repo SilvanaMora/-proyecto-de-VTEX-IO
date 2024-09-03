@@ -1,6 +1,6 @@
-
 {
-    "search-result-layout.mobile": {
-      "children": ["flex-layout.row#mobile__plp"]
-    }
+  "search-result-layout.mobile": {
+    "title": "PLP layout mobile",
+    "children": ["flex-layout.row#mobile__plp"]
   }
+}
