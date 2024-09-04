@@ -1,0 +1,30 @@
+{
+  "vtex.product-highlights@2.x:product-highlights": {
+    "title": "Product highlights component",
+    "children": ["product-highlight-wrapper"],
+    "props": {
+      "filter": {
+        "highlightNames": ["Envío Gratis"],
+        "type": "show"
+      }
+    }
+  },
+
+  "product-highlight-wrapper": {
+    "title": "Product highlight wrapper",
+    "children": ["product-highlight-text", "icon#flash"]
+  },
+  "product-highlight-text": {
+    "title": "Product highlight text",
+    "props": {
+      "message": "Envío gratis"
+    }
+  },
+  "icon#flash": {
+    "title": "Icon flash",
+    "props": {
+      "id": "flash",
+      "blockClass": "icon-flash"
+    }
+  }
+}

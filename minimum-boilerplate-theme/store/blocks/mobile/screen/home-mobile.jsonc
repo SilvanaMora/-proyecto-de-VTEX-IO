@@ -1,0 +1,15 @@
+{
+  "responsive-layout.mobile#mobile__home": {
+    "title": "Home mobile",
+    "children": [
+      "flex-layout.row#global__row-rich-text",
+      "flex-layout.row#global__slider-card",
+      "flex-layout.row#global__row-rich-text",
+      "flex-layout.row#global__main-shelf--container",
+      "flex-layout.row#global__row-rich-text",
+      "flex-layout.row#global__slider-card",
+      "flex-layout.row#global__row-rich-text",
+      "flex-layout.row#global__main-shelf--container"
+    ]
+  }
+}

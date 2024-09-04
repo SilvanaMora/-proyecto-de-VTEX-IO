@@ -1,0 +1,94 @@
+{
+  "flex-layout.row#desktop__plp": {
+    "children": ["flex-layout.col#desktop__container--plp"],
+    "props": {
+      "blockClass": "desktop__plp"
+    }
+  },
+
+  "flex-layout.col#desktop__container--plp": {
+    "title": "PLP container desktop",
+    "children": [
+      "flex-layout.row#desktop__head--plp",
+      "flex-layout.row#desktop__body--plp"
+    ],
+    "props": {
+      "blockClass": "desktop__container--plp"
+    }
+  },
+
+  "flex-layout.row#desktop__head--plp": {
+    "title": "PLP desktop head",
+    "children": [
+      "flex-layout.col#desktop__breadcrumb--search--totalproducts",
+      "flex-layout.col#desktop__order--gallery"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "fullWidth": true,
+      "blockClass": "desktop__head--plp"
+    }
+  },
+
+  "flex-layout.col#desktop__breadcrumb--search--totalproducts": {
+    "title": "Container desktop breadcrumb--search--totalproducts",
+    "children": [
+      "breadcrumb.search#global__breadcrumb--search",
+      "search-title.v2#global__search--title",
+      "total-products.v2#global__total--products"
+    ],
+    "props": {
+      "blockClass": "desktop__breadcrumb--search--totalproducts"
+    }
+  },
+
+  "flex-layout.col#desktop__order--gallery": {
+    "title": "Desktop order gallery",
+    "children": [
+      "order-by.v2#global__order--by",
+      "gallery-layout-switcher#global__gallery--switcher"
+    ],
+    "props": {
+      "blockClass": "desktop__order--gallery"
+    }
+  },
+
+  "flex-layout.row#desktop__body--plp": {
+    "title": "Desktop body PLP",
+    "children": [
+      "flex-layout.col#desktop__filter--options",
+      "flex-layout.col#desktop__product--gallery"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "desktop__body--plp"
+    }
+  },
+
+  "flex-layout.col#desktop__filter--options": {
+    "title": "Desktop filter options",
+    "children": ["filter-navigator.v3#global__filter--navigator"],
+    "props": {
+      "blockClass": "desktop__filter--options"
+    }
+  },
+
+  "flex-layout.col#desktop__product--gallery": {
+    "title": "Desktop product gallery col",
+    "children": [
+      "search-content#global__content",
+      "search-products-count-per-page",
+      "search-fetch-more#desktop__buttom--see-more"
+    ],
+    "props": {
+      "blockClass": "desktop__product--gallery"
+    }
+  },
+  "search-fetch-more#desktop__buttom--see-more": {
+    "title": "Desktop button see more",
+    "props": {
+      "blockClass": "desktop__buttom--see-more",
+      "text": "Ver más"
+    }
+  }
+}

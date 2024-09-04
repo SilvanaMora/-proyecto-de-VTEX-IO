@@ -1,0 +1,33 @@
+.wishlistIconContainer--wishlist-icon :global(.vtex-button) {
+  border-color   : #1d2734;
+  border-radius  : 3.04px;
+  justify-content: center;
+  opacity        : 0px;
+  box-sizing     : border-box;
+  min-height     : 32px;
+
+}
+
+.wishlistIcon--wishlist-icon {
+  background-image : url("assets/img/like-blue.svg") !important;
+  background-size  : contain;
+  background-repeat: no-repeat;
+  display          : inline-block;
+  position         : absolute;
+}
+
+.iconSize {
+  max-width : 20px;
+  max-height: 20px;
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .wishlistIconContainer--wishlist-icon :global(.vtex-button) {
+
+    border-radius: 4px;
+    height       : 100%;
+    box-sizing   : border-box;
+
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "login#global-login": {
+    "props": {
+      "iconLabel": "Login",
+      "optionsTitle": "LOG IN",
+      "emailAndPasswordTitle": "LOG IN", //"Continue with an e-mail and password"
+      "providerPasswordButtonLabel": "Continue with an e-mail and password",
+      "emailPlaceholder": "Enter your e-mail",
+      "passwordPlaceholder": "Enter your password",
+      "accessCodePlaceholder": "Enter your access code",
+      "accessCodeTitle": "Receive access code by email", //"RECUPERAR CLAVE",
+      //"showPasswordVerificationIntoTooltip": true,
+      "blockClass": "icon-login",
+      "accountOptionLinks": [
+        {
+          "label": "Profile",
+          "path": "/account#/profile",
+          "cssClass": "login__botton--profile"
+        },
+        {
+          "label": "Addresses",
+          "path": "/account#/addresses",
+          "cssClass": "login__botton--addresses"
+        },
+        {
+          "label": "Orders",
+          "path": "/account#/orders",
+          "cssClass": "login__botton--orders"
+        },
+        {
+          "label": "Credit cards",
+          "path": "/account#/cards",
+          "cssClass": "login__botton--credit-cards"
+        },
+        {
+          "label": "Authentication",
+          "path": "/account#/authentication",
+          "cssClass": "login__botton--authentication"
+        }
+      ]
+    }
+  }
+}
+
+/*  
+        "forgotPasswordLinkClass": "forgot-password-link",  
+        "createAccountLinkClass": "create-account-link" 
+      }*/

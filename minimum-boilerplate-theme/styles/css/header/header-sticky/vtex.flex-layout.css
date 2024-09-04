@@ -1,0 +1,44 @@
+.flexCol--desktop__header--bar {
+  padding       : 0px;
+  gap           : 13px;
+  flex-direction: row;
+}
+
+.flexColChild--desktop__header--bar {
+  display    : flex;
+  align-items: center;
+}
+
+.flexCol--desktop__logo {
+  padding-right: 16px;
+  padding-left : 8px;
+  text-align   : center;
+}
+
+.flexRowContent--desktop__header--main {
+  max-height : 56px;
+  align-items: center;
+}
+
+.flexRowContent--mobile__header--main {
+  max-height : 56px;
+  align-items: center;
+}
+
+.flexRow--desktop__header--main {
+  max-width : 1280px;
+  margin    : auto;
+  padding   : 8px 48px;
+  max-height: 56px;
+
+}
+
+.flexCol--mobile__col-left {
+  flex-direction: row;
+  align-items   : center;
+}
+
+.flexCol--mobile__col-right {
+  flex-direction: row;
+  align-items   : center;
+}

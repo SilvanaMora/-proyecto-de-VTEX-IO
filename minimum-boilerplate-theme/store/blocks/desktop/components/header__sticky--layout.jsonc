@@ -1,0 +1,156 @@
+{
+  "sticky-layout#desktop__header": {
+    "title": "Sticky header layout  Desktop",
+    "props": {
+      "blockClass": "desktop__header",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.row#desktop__header--main"]
+  },
+
+  "flex-layout.row#desktop__header--main": {
+    "title": "Main header row  desktop",
+    "props": {
+      "horizontalAlign": "between",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "desktop__header--main"
+    },
+    "children": [
+      "flex-layout.row#desktop__row-left",
+      "flex-layout.row#desktop__row-right"
+    ]
+  },
+
+  "flex-layout.row#desktop__row-left": {
+    "title": "Left section desktop header",
+    "props": {
+      "colSizing": "auto",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__row-left"
+    },
+    "children": [
+      "flex-layout.col#desktop__mega-menu",
+      "flex-layout.col#desktop__logo",
+      "flex-layout.col#desktop__header--search-bar"
+    ]
+  },
+
+  "flex-layout.row#desktop__row-right": {
+    "title": "Right section desktop header",
+    "props": {
+      "colSizing": "auto",
+      "verticalAlign": "middle",
+      "blockClass": "desktop__row-right"
+    },
+    "children": [
+      "flex-layout.col#desktop__header--bar",
+      "minicart.v2",
+      "login#global-login"
+    ]
+  },
+
+  "flex-layout.col#desktop__logo": {
+    "title": "Logo column desktop header",
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "desktop__logo"
+    },
+    "children": ["logo#global__logo-itg"]
+  },
+
+  "flex-layout.col#desktop__header--bar": {
+    "title": "Bar section desktop header",
+    "props": {
+      "blockClass": "desktop__header--bar"
+    },
+    "children": [
+      "flex-layout.row#desktop__header--1-tendencias-it-globers",
+      "flex-layout.row#desktop__header--2-coleccion-del-mes",
+      "flex-layout.row#desktop__header--3-ofertas-enero",
+      "flex-layout.row#desktop__header--4-cyber-monday",
+      "flex-layout.row#desktop__header--5-never-say-never"
+    ]
+  },
+
+  "flex-layout.row#desktop__header--1-tendencias-it-globers": {
+    "title": "Tendencias IT Globers row",
+    "children": ["rich-text#desktop__header--text-tendencias-it-globers"],
+    "props": {
+      "blockClass": "desktop__header--col-bar"
+    }
+  },
+
+  "flex-layout.row#desktop__header--2-coleccion-del-mes": {
+    "title": "Colección del mes row",
+    "children": ["rich-text#desktop__header--text-coleccion-del-mes"],
+    "props": {
+      "blockClass": "desktop__header--col-bar"
+    }
+  },
+
+  "flex-layout.row#desktop__header--3-ofertas-enero": {
+    "title": "Ofertas enero row",
+    "children": ["rich-text#desktop__header--text-ofertas-enero"],
+    "props": {
+      "blockClass": "desktop__header--col-bar"
+    }
+  },
+
+  "flex-layout.row#desktop__header--4-cyber-monday": {
+    "title": "Cyber monday row",
+    "children": ["rich-text#desktop__header--text-cyber-monday"],
+    "props": {
+      "blockClass": "desktop__header--col-bar"
+    }
+  },
+
+  "flex-layout.row#desktop__header--5-never-say-never": {
+    "title": "Never say never row",
+    "children": ["rich-text#desktop__header--text-never-say-never"],
+    "props": {
+      "blockClass": "desktop__header--col-bar"
+    }
+  },
+
+  "rich-text#desktop__header--text-tendencias-it-globers": {
+    "title": "Rich text  Tendencias IT Globers",
+    "props": {
+      "text": "Tendencias de ITGlobers",
+      "blockClass": "desktop__header-text"
+    }
+  },
+
+  "rich-text#desktop__header--text-coleccion-del-mes": {
+    "title": "Rich text colección del mes",
+    "props": {
+      "text": "Colección del mes",
+      "blockClass": "desktop__header-text"
+    }
+  },
+
+  "rich-text#desktop__header--text-ofertas-enero": {
+    "title": "Rich Text  ofertas enero",
+    "props": {
+      "text": "Ofertas enero",
+      "blockClass": "desktop__header-text"
+    }
+  },
+
+  "rich-text#desktop__header--text-cyber-monday": {
+    "title": "Rich Text for Cyber Monday",
+    "props": {
+      "text": "Cyber Monday",
+      "blockClass": "desktop__header-text"
+    }
+  },
+
+  "rich-text#desktop__header--text-never-say-never": {
+    "title": "Rich Text for Never Say Never",
+    "props": {
+      "text": "Never say never",
+      "blockClass": "desktop__header-text"
+    }
+  }
+}

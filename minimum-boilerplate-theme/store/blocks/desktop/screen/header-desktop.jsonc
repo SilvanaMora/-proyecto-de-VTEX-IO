@@ -1,7 +1,9 @@
 {
-    "header-layout.desktop": {
+  "header-layout.desktop": {
+    "title": "Header desktop",
     "children": [
-      "sticky-layout#desktop"
+      "sticky-layout#desktop__header",
+      "flex-layout.row#global__header-menu-item"
     ]
   }
 }

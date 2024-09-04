@@ -1,0 +1,46 @@
+{
+  "flex-layout.row#desktop__home--slider": {
+    "title": "Desktop image watch fullW",
+    "children": ["list-context.image-list#desktop__home--image-main"],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "desktop__home--slider"
+    }
+  },
+
+  "list-context.image-list#desktop__home--image-main": {
+    "title": "Desktop image watch full",
+    "children": ["slider-layout#desktop__home--slider-image-watch"],
+    "props": {
+      "preload": true,
+      "width": "100%",
+      "top": "168px",
+      "gap": "0px",
+      "opacity": "0px",
+      "blockClass": "desktop__home--image-main",
+      "images": [
+        {
+          "loading": "eager",
+          "src": "/arquivos/home-completo.png",
+          "description": "something something",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#desktop__home--slider-image-watch": {
+    "title": "Desktop slider home watch full ",
+    "props": {
+      "blockClass": "desktop__home--slider-image-watch",
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": false
+    }
+  }
+}

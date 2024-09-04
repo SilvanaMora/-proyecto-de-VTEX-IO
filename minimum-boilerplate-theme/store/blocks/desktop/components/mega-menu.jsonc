@@ -1,0 +1,43 @@
+{
+  "flex-layout.col#desktop__mega-menu": {
+    "title": "Mega menu",
+    "props": {
+      "blockClass": "desktop__mega-menu",
+      "preventVerticalStretch": true
+    },
+    "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
+  },
+
+  "flex-layout.row#4-desktop": {
+    "title": "Container trigger row",
+    "children": ["flex-layout.col#trigger-mega-menu"]
+  },
+
+  "flex-layout.row#mega-menu": {
+    "title": "Menu container row",
+    "children": ["mega-menu#desktop"]
+  },
+
+  "mega-menu#desktop": {
+    "title": "Mega menu desktop",
+    "props": {
+      "openOnly": "horizontal",
+      "title": "All Categories"
+    }
+  },
+
+  "flex-layout.col#trigger-mega-menu": {
+    "title": "Trigger column",
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["mega-menu-trigger-btn"]
+  },
+
+  "mega-menu-trigger-btn": {
+    "title": "Mega menu trigger button",
+    "props": {
+      "Drawer": "drawer"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "gallery#global__search": {
+    "title": "Global gallery configuration",
+    "props": {
+      "layouts": [
+        {
+          "name": "whole",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 2,
+            "mobile": 1
+          }
+        },
+        {
+          "name": "two",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": 2
+        },
+        {
+          "name": "many",
+          "component": "ManyByLineSummary",
+          "itemsPerRow": {
+            "desktop": 3,
+            "tablet": 2,
+            "mobile": 1
+          }
+        }
+      ],
+
+      "OneOrTwoLineSummary": "product-summary.shelf#gallery-product",
+      "ManyByLineSummary": "product-summary.shelf#gallery-product"
+    }
+  },
+  "gallery-layout-switcher#global__gallery--switcher": {
+    "title": "Gallery layout switcher",
+    "children": [
+      "gallery-layout-option#whole",
+      "gallery-layout-option#two",
+      "gallery-layout-option#many"
+    ],
+    "props": {
+      "blockClass": "global__gallery--switcher"
+    }
+  },
+
+  "gallery-layout-option#whole": {
+    "title": "Layout option whole",
+    "props": {
+      "name": "whole"
+    },
+    "children": ["icon-single-grid"]
+  },
+  "gallery-layout-option#two": {
+    "title": "Layout option two",
+    "props": {
+      "name": "two"
+    },
+    "children": ["icon-inline-grid"]
+  },
+  "gallery-layout-option#many": {
+    "title": "Layout Option many",
+    "props": {
+      "name": "many"
+    },
+    "children": ["icon-menu"]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "list-context.image-list#phone__home--image-watch": {
+    "title": "phone Image watch ",
+    "children": ["slider-layout#phone__home--slider-image-watch"],
+    "props": {
+      "blockClass": "phone-home-image-watch",
+      "preload": true,
+      "images": [
+        {
+          "loading": "eager",
+          "src": "/arquivos/home-mobile.png",
+          "description": "something something",
+          "link": {
+            "url": "#"
+          }
+        }
+      ]
+    }
+  },
+
+  "slider-layout#phone__home--slider-image-watch": {
+    "title": "Slider home phone",
+    "props": {
+      "blockClass": "phone__slider--homw-image-watch",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": false
+    }
+  }
+}

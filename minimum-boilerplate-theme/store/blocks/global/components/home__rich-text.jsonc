@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#global__row-rich-text": {
+    "title": "Rich text row",
+    "props": {
+      "blockClass": "global__row-rich-text"
+    },
+    "children": ["rich-text#global__text-next-watch"]
+  },
+
+  "rich-text#global__text-next-watch": {
+    "title": "Rich text next watch",
+    "props": {
+      "text": "An amazing product.",
+      "blockClass": "global__text-next-watch"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "product-summary.shelf#gallery-product": {
+    "title": "Product fummary Shelf for gallery",
+    "children": ["flex-layout.row#global__shelf--content-gallery"],
+    "props": {
+      "blockClass": "global__gallery--product-summary"
+    }
+  },
+  "flex-layout.row#global__shelf--content-gallery": {
+    "title": "Flex layout row for shelf content in gallery",
+    "children": [
+      "flex-layout.col#global__shelf--image-gallery",
+      "flex-layout.col#global__shelf--details-gallery"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "global__shelf--content-gallery"
+    }
+  },
+  "flex-layout.col#global__shelf--image-gallery": {
+    "title": "Flex layout column for image in gallery",
+    "children": ["product-summary-image#global__image--galery"],
+    "props": {
+      "blockClass": "global__shelf--image-gallery"
+    }
+  },
+  "product-summary-image#global__image--galery": {
+    "title": "Product summary image for gallery",
+    "props": {
+      "showBadge": false,
+      "blockClass": "global__image--galery"
+    }
+  },
+  "flex-layout.col#global__shelf--details-gallery": {
+    "title": "Flex layout column for details in gallery",
+    "children": [
+      "product-summary-description#global__product--summary-description-gallery",
+      "product-list-price",
+      "product-selling-price",
+      "vtex.product-highlights@2.x:product-highlights"
+    ],
+    "props": {
+      "blockClass": "global__shelf--details-gallery"
+    }
+  },
+  "product-summary-description#global__product--summary-description-gallery": {
+    "title": "product summary description for gallery",
+    "props": {
+      "blockClass": "global__product--summary-description-gallery"
+    }
+  },
+  "product-list-price": {
+    "title": "Product list price",
+    "props": {}
+  },
+  "product-selling-price": {
+    "title": "Product selling price",
+    "props": {}
+  },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "title": "Product highlights",
+    "props": {
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Envío gratis"]
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "search-content#global__content": {
+    "blocks": ["gallery#global__search", "not-found"]
+  },
+
+  "order-by.v2#global__order--by": {
+    "props": {
+      "blocksClass": "global__order--by"
+    }
+  },
+  "filter-navigator.v3#global__filter--navigator": {
+    "props": {
+      "blocksClass": "global__filter--navigator"
+    }
+  },
+  "total-products.v2#global__total--products": {
+    "props": {
+      "blocksClass": "global__total--products"
+    }
+  },
+  "search-title.v2#global__search--title": {
+    "props": {
+      "blocksClass": "global__search--title"
+    }
+  },
+  "breadcrumb.search#global__breadcrumb--search": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "search-products-count-per-page": {
+    "props": {
+      "blocksClass": "global__breadcrumb--search"
+    }
+  }
+}

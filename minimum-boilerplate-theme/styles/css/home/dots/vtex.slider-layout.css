@@ -1,0 +1,30 @@
+.paginationDot {
+  width           : 44px !important;
+  height          : 40px !important;
+  border-radius   : 0;
+  position        : relative;
+  background-color: transparent;
+  display         : flex;
+  align-items     : center;
+  justify-content : center;
+  margin          : 0 2px;
+}
+
+.paginationDot::after {
+  width           : 44px;
+  height          : 2px;
+  content         : "";
+  position        : absolute;
+  background-color: #1D2734;
+}
+
+.paginationDot--isActive::before {
+  width           : 16px;
+  height          : 16px;
+  content         : "";
+  position        : absolute;
+  right           : -8px;
+  background-color: #1D2734;
+  border-radius   : 50%;
+}
+

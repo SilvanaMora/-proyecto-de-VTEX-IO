@@ -1,0 +1,40 @@
+{
+  "store.search": {
+    "title": "General Search Configuration",
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 15
+      }
+    }
+  },
+
+  "store.search#department": {
+    "title": "Department Search Configuration",
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 15
+      }
+    }
+  },
+
+  "store.search#category": {
+    "title": "Category Search Configuration",
+    "blocks": ["search-result-layout"],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "default",
+        "maxItemsPerPage": 15
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": ["search-result-layout.desktop", "search-result-layout.mobile"]
+  }
+}

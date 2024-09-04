@@ -1,0 +1,11 @@
+.buttonText--custom-add-to-cart-button::before {
+  content          : " ";
+  display          : inline-block;
+  width            : 20px;
+  height           : 20px;
+  background-image : url("assets/img/add_shopping_cart.svg");
+  background-size  : contain;
+  background-repeat: no-repeat;
+  margin-right     : 10px;
+  vertical-align   : middle;
+}

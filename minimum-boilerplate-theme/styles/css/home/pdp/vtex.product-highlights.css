@@ -1,0 +1,36 @@
+.productHighlightWrapper--global__wrapper--pdp__flash-deal {
+    min-width    : 104px;
+    height       : 32px;
+    top          : 192px;
+    left         : 727px;
+    padding      : 6px 12px 6px 12px;
+    gap          : 10px;
+    border-radius: 4px;
+    opacity      : 0px;
+    background   : #FF832433;
+    font-family  : Lexend;
+    font-size    : 14px;
+    font-weight  : 400;
+    line-height  : 20px;
+    text-align   : left;
+    color        : #FF8324;
+    margin-right : 0rem;
+    white-space  : nowrap;
+
+}
+
+.productHighlightWrapper--global__wrapper--pdp-best-seller {
+    min-width    : 104px;
+    height       : 32px;
+    padding      : 6px 12px 6px 12px;
+    border-radius: 4px;
+    background   : #93FF9633;
+    font-family  : Lexend;
+    font-size    : 14px;
+    font-weight  : 400;
+    line-height  : 20px;
+    text-align   : left;
+    color        : #1D2734;
+
+
+}

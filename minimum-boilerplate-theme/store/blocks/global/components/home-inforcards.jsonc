@@ -1,0 +1,169 @@
+{ 
+  "flex-layout.row#global__slider-card": {
+    "title": "Slider card",
+    "children": ["slider-layout#global__home--slider-card"],
+    "props": {
+      "blockClass": "global__slider-card"
+    }
+  },
+  
+  "slider-layout#global__home--slider-card": {
+    "title": "Mobile home slider card",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": "global__home--slider-card"
+    },
+    "children": [
+      "flex-layout.row#global__home--row-card",
+      "flex-layout.row#global__home--row-card",
+      "flex-layout.row#global__home--row-card",
+      "flex-layout.row#global__home--row-card",
+      "flex-layout.row#global__home--row-card",
+      "flex-layout.row#global__home--row-card",
+      "flex-layout.row#global__home--row-card",
+      "flex-layout.row#global__home--row-card",
+      "flex-layout.row#global__home--row-card",
+      "flex-layout.row#global__home--row-card",
+      "flex-layout.row#global__home--row-card"
+    ]
+  },
+
+  "flex-layout.row#global__home--row-card": {
+    "title": "Global home row card",
+    "children": [
+      "flex-layout.col#global__home--col-card"
+    ],
+    "props": {
+      "blockClass": "global__home--row-card"
+     
+    }
+  },
+
+  "flex-layout.col#global__home--col-card": {
+    "title": "Global home col card",
+    "children": [
+      "flex-layout.row#global__home--rowcard-inside1",
+      "flex-layout.row#global__home--rowcard-inside2",
+      "flex-layout.row#global__home--rowcard-inside3"
+    ],
+    "props": {
+      "blockClass": "global__home--col-card"
+    }
+  },
+
+  "flex-layout.row#global__home--rowcard-inside1": {
+    "title": "Global home rowcard inside1",
+    "children": [
+      "image#global__home--image-main-card"
+    ],
+    "props": {
+      "blockClass": "global__home--rowcard-inside1"
+    }
+  },
+
+  "flex-layout.row#global__home--rowcard-inside2": {
+    "title": "Global home rowcard inside2",
+    "children": [
+      "flex-layout.col#global__home--col1-inside",
+      "flex-layout.col#global__home--col2-inside"
+    ],
+    "props": {
+      "blockClass": "global__home--rowcard-inside2",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#global__home--col1-inside": {
+    "title": "Global home col1 inside",
+    "children": [
+      "rich-text#global__home--title-card",
+      "rich-text#global__home--text-card"
+    ],
+    "props": {
+      "blockClass": "global__home--col1-inside"
+      
+     
+    }
+  },
+
+  "flex-layout.col#global__home--col2-inside": {
+    "title": "Global home col2 inside",
+    "children": [
+      "image#global__home--image-gold"
+    ],
+    "props": {
+      "blockClass": "global__home--col2-inside",
+     
+      "horizontalAlign": "right"
+    }
+  },
+
+  "flex-layout.row#global__home--rowcard-inside3": {
+    "title": "Global home rowcard inside3",
+    "children": [
+      "rich-text#global__home--button-card"
+    ],
+    "props": {
+      "blockClass": "global__home--rowcard-inside3"
+    }
+  },
+
+  "image#global__home--image-main-card": {
+    "title": "Global home image main card",
+    "props": {
+      "src": "/arquivos/image-heading.png",
+      "alt": "Image 1",
+      "blockClass": "global__home--image-main-card"
+    }
+  },
+
+  "rich-text#global__home--title-card": {
+    "title": "Global home title card",
+    "props": {
+      "text": "Heading",
+      "blockClass": "global__home--title-card"
+    }
+  },
+
+  "rich-text#global__home--text-card": {
+    "title": "Global home text card",
+    "props": {
+      "text": "Builder platform is made by, buildership platform is made by…",
+      "blockClass": "global__home--text-card"
+    }
+  },
+
+  "image#global__home--image-gold": {
+    "title": "Global home image gold",
+    "props": {
+      "src": "/arquivos/trailing.png",
+      "alt": "Side Image",
+      "blockClass": "global__home--image-gold"
+    }
+  },
+
+  "rich-text#global__home--button-card": {
+    "title": "Global home button card",
+    "props": {
+      "text": "[Ver precio](#)",
+      "blockClass": "global__home--button-card"
+    }
+  }
+}
+
+ 
+
+ 
+ 
+ 
+
+
+  
+ 

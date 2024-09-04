@@ -1,0 +1,22 @@
+.paragraph--desktop__header-text {
+  font-family: Lexend;
+  font-size  : 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align : center;
+  color: #1D2734;
+white-space: break-spaces;
+
+
+}
+
+.container--desktop__header-text {
+  display    : inline-block;
+  white-space: nowrap;
+  margin-left: 0;
+}
+
+.paragraph--desktop__header-text:hover {
+  text-decoration: underline;
+  cursor         : pointer;
+}

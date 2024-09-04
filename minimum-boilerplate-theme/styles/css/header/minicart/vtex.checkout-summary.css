@@ -1,0 +1,11 @@
+.summaryItemContainer--minicart__summary--totalizers:first-child {
+    color      : #1D2734;
+    font-size  : 14px;
+    font-weight: 300;
+}
+
+.summaryItemContainer--minicart__summary--totalizers:last-child {
+    color      : #E31616;
+    font-size  : 16px;
+    font-weight: 600;
+}
