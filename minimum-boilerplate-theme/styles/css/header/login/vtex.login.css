@@ -1,4 +1,4 @@
-/*button login*/
+
 .container :global(.vtex-login-2-x-label) {
   text-align    : center;
   color         : #ffffff;
@@ -29,6 +29,10 @@
   display: none;
 }
 
+.content :global(.vtex-login-2-x-formFooter){
+  display: none;
+  border-top-style: none;
+}
 /*first screen Log in */
 
 
@@ -152,13 +156,13 @@
 
 /*second screen code by email*/
 
-.content :global(.vtex-login-2-x-formTitle) {
+.content :global(.vtex-login-2-x-emailForm) {
   font-size     : 0;
   display       : flex;
   flex-direction: column;
 }
 
-.content :global(.vtex-login-2-x-formTitle)::before {
+.content :global(.vtex-login-2-x-emailForm)::before {
   content    : "LOG IN";
   font-family: Lexend;
   font-size  : 20px;
@@ -168,7 +172,7 @@
   color      : #0C2340;
 }
 
-.content :global(.vtex-login-2-x-formTitle)::after {
+.content :global(.vtex-login-2-x-emailForm)::after {
   content    : "Continue with e-mail and password";
   font-family: Lexend;
   font-size  : 14px;
@@ -176,6 +180,7 @@
   line-height: 20px;
   text-align : center;
   color      : #5E636E;
+  padding-top: 2px;
 
 
 }
@@ -201,7 +206,7 @@
 .formLinkContainer :global(.vtex-login-2-x-forgotPasswordLink) {
   visibility : hidden;
   font-family: Lexend;
-  font-size  : 14px;
+  font-size  : 0;
   font-weight: 300;
   line-height: 20px;
   text-align : center;
@@ -218,6 +223,7 @@
   line-height: 20px;
   text-align : center;
   color      : #0C2340;
+  margin-right: 7px;
 
 
 }
@@ -292,35 +298,52 @@
 }
 
 
+.backButton{
+  position: absolute;
+  z-index: 10;
+  top: 18;
+}
+
 .portalContainer .arrowBackIcon {
   width   : 26px;
   height  : 26px;
   color   : #1D2734;
-  position: relative;
-  top     : -130px;
+
 }
 
-/*button send.sendButton :global(.vtex-button) {
+
+.portalContainer .sendButton :global(.vtex-button__label){
   visibility: hidden;
- 
-
+  font-size: 0;
 }
-.portalContainer .sendButton :global(.vtex-button)::before {
+
+.portalContainer .sendButton :global(.vtex-button__label)::before {
   visibility      : visible;
-  content         : "Login";*/
+  content         : "Login";
+  color           : white;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+}
+.portalContainer .sendButton :global(.t-small){
+  display: none;
+}
 .portalContainer .sendButton :global(.vtex-button) {
-  padding         : 10px;
+  padding         : 18px;
   gap             : 10px;
   border-radius   : 40px;
   border          : 1px;
   opacity         : 0px;
-  width           : 300px;
+  width           : 100%;
   color           : white;
   background-color: #1d2734;
-
-
 }
 
+.sendButton{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 /*fourth screen New password*/
 
 /* fifth screen of my account*/

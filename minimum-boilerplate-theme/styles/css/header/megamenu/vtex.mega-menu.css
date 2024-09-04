@@ -1,6 +1,8 @@
 .menuItem:hover {
     background-color: #FFE6D3;
     cursor          : pointer;
+   
+    
 }
 
 .caretIcon {
@@ -26,6 +28,10 @@
     scrollbar-width : none;
     width           : unset;
     max-height      : 647px;
+    min-width       : 300px;
+    column-count    : 2;
+    column-gap      : 20px;
+    
 }
 
 .submenuContainerTitle {
@@ -67,6 +73,7 @@
     width                     : auto !important;
     border-bottom-right-radius: 16px;
     border-bottom-left-radius : 16px;
-    margin-left               : 72px;
+    position                  : absolute;
+
 
 }

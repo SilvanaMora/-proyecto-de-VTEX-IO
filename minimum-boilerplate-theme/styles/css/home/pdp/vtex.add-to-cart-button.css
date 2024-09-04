@@ -12,7 +12,7 @@
 }
 
 .buttonText--global__pdp--button-add--to--cart::before {
-    background-image: url("assets/img/add_shopping_cart.svg");
+    content: url("assets/img/add_shopping_cart.png");
     width           : 16.8px;
     height          : 17.5px;
     top             : 0.83px;
