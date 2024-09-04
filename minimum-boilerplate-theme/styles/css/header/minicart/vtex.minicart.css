@@ -32,8 +32,9 @@
   ;
 
 }
+
 .minicartProductListContainer {
-  margin: 20px 0px;
+  margin : 20px 0px;
   padding: 0;
 }
 
@@ -60,14 +61,14 @@
   background   : #F5F4F6;
   padding      : 1px;
   border-radius: 40px;
-  margin-right: 16px;
-  align-items: center;
+  margin-right : 16px;
+  align-items  : center;
 
 }
 
 
 .minicartSideBarContentWrapper {
- min-height: 59rem;
+  min-height: 59rem;
 }
 
 

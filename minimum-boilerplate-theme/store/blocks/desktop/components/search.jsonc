@@ -1,5 +1,6 @@
 {
   "flex-layout.col#desktop__header--search-bar": {
+    "title": "Search Bar Column",
     "props": {
       "blockClass": "desktop__header--searchbar"
     },

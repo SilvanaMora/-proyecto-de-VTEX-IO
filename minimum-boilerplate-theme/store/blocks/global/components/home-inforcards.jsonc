@@ -143,7 +143,7 @@
   "image#global__home--image-gold": {
     "title": "Global home image gold",
     "props": {
-      "src": "/arquivos/image-gold.png",
+      "src": "/arquivos/trailing.png",
       "alt": "Side Image",
       "blockClass": "global__home--image-gold"
     }

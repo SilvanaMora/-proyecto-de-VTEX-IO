@@ -21,19 +21,19 @@
 }
 
 .savings {
-  background      : #1d2734;
-  border-radius   : 4px;
-  color           : #ffffff;
-  font-size       : 12px;
-  font-family     : Lexend;
-  flex-wrap       : nowrap;
-  align-content   : center;
-  font-family     : Lexend;
-  font-weight     : 400;
-  line-height     : 15.19px;
-  text-align      : center;
-  padding-left    : 14.11px;
-  padding-right   : 14.11px;
+  background   : #1d2734;
+  border-radius: 4px;
+  color        : #ffffff;
+  font-size    : 12px;
+  font-family  : Lexend;
+  flex-wrap    : nowrap;
+  align-content: center;
+  font-family  : Lexend;
+  font-weight  : 400;
+  line-height  : 15.19px;
+  text-align   : center;
+  padding-left : 14.11px;
+  padding-right: 14.11px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -41,7 +41,7 @@
     font-size  : 14px;
     font-weight: 400;
     line-height: 16.8px;
-    
+
   }
 
   .sellingPrice {
@@ -49,10 +49,10 @@
     line-height: 28.8px;
   }
 
-  .savings{
-    padding-left    : 13px;
-    padding-right   : 13px;
-    font-size       : 14px;
-    line-height     : 20px;
+  .savings {
+    padding-left : 13px;
+    padding-right: 13px;
+    font-size    : 14px;
+    line-height  : 20px;
   }
 }

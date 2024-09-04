@@ -74,7 +74,7 @@
   },
 
   "flex-layout.col#desktop__product--gallery": {
-   "title": "Desktop product gallery col",
+    "title": "Desktop product gallery col",
     "children": [
       "search-content#global__content",
       "search-products-count-per-page",
@@ -85,8 +85,8 @@
     }
   },
   "search-fetch-more#desktop__buttom--see-more": {
-   "title": "Desktop button see more",
-      "props": {
+    "title": "Desktop button see more",
+    "props": {
       "blockClass": "desktop__buttom--see-more",
       "text": "Ver más"
     }

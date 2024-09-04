@@ -8,8 +8,8 @@
       "emailPlaceholder": "Enter your e-mail",
       "passwordPlaceholder": "Enter your password",
       "accessCodePlaceholder": "Enter your access code",
-      "accessCodeTitle": "Receive access code by email",//"RECUPERAR CLAVE", 
-      "showPasswordVerificationIntoTooltip": true,
+      "accessCodeTitle": "Receive access code by email", //"RECUPERAR CLAVE",
+      //"showPasswordVerificationIntoTooltip": true,
       "blockClass": "icon-login",
       "accountOptionLinks": [
         {

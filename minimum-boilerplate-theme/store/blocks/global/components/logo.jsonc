@@ -1,5 +1,5 @@
 {
-    "flex-layout.col#spacer": {
+  "flex-layout.col#spacer": {
     "props": {
       "width": "grow"
     }
@@ -14,6 +14,5 @@
       "href": "/",
       "blockClass": "global__logo-itg"
     }
- 
   }
 }
